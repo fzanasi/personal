@@ -1,0 +1,256 @@
+<div id="publications" class="page ng-scope" data-spy="scroll" data-target="#pub-year-nav">
+  <div class="page-container">
+    <div class="pageheader">
+      <div class="headercontent">
+        <div class="section-container">
+          <h2 class="title">My Publications</h2>
+          <div class="row">
+            <div class="col-md-12">
+              <span class="babbo">publications.html</span>
+              <p>I have a
+                <a href="http://dblp.uni-trier.de/pers/hd/z/Zanasi:Fabio.htmlsc">DBLP page</a> and a
+                <a href="https://scholar.google.co.uk/citations?user=Y_j2FasAAAAJ&hl=en">Google Scholar page</a>.</p>
+                <p>My Erd&#337;s number is <a href="http://www.ams.org/mathscinet/collaborationDistance.html?AuthorSourceName=Zanasi+Fabio&AuthorTargetName=Erd%C3%B6s%2C+Paul&group_target=189017&Submit=Search">3</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section color-1" id="filters">
+      <div class="section-container">
+        <div class="row">
+          <div class="col-md-2">
+            <h3 class="pull-right">Filter by type:</h3>
+          </div>
+          <div class="col-md-4 pull-left">
+            <select pub-type-dropdown="true" id="cd-dropdown" name="cd-dropdown" class="cd-select pull-left">
+              <option class="filter" value="all" selected>All types</option>
+              <option class="filter" value="journal">Jounal Papers</option>
+              <option class="filter" value="conference">Conference Papers</option>
+              <option class="filter" value="bookchapter">Book Chapters</option>
+              <option class="filter" value="book">Book Chapters</option>
+              <option class="filter" value="thesis">Thesis</option>
+              <option class="filter" value="techreport">Technical Reports</option>
+              <option class="filter" value="unpublished">Unpublished</option>
+            </select>
+          </div>
+          <form class="form-inline col-md-6" role="search" id="pub-search">
+            <div class="form-group pull-right">
+              <div class="input-group">
+                <label class="sr-only" for="searchInput">Search</label>
+                <input type="text" ng-model="search" class="form-control input-lg" id="searchInput" placeholder="Search">
+                <span class="glyphicon glyphicon-search form-control-feedback" aria-hidden="true"></span>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="row">
+          <div class="col-sm-2 col-sm-offset-5"
+               ng-repeat="author in matchingCollaborators" ng-if="matchingCollaborators.length == 1">
+            <div class="thumbnail">
+              <img ng-src="img/collaborators/{{author.img}}" alt="{{autor.name}}">
+              <div class="caption">
+                <h4 class="text-center" ng-bind="author.name"></h4>
+                <p class="text-center"><a ng-href="{{author.link}}" target="_blank"><i class="icon-home"></i> Homepage</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="section color-2" pub-grid="true">
+        <div class="section-container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="pitems">
+                <div ng-repeat="paper in papers | filter: filterByPubType(pubTypeFilter) | filter: search" class="item" ng-class="{'has-details': paper.abstract}">
+                  <div class="pubmain">
+                    <div class="pubassets">
+                      <a class="pubcollapse" ng-if="paper.abstract" href="">
+                        <i class="icon-expand-alt"></i>
+                      </a>
+                      <a ng-if="paper.conference.url" ng-href="{{paper.conference.url}}" class="toooltips" title="Conference page" target="_blank">
+                        <i class="icon-external-link"></i>
+                      </a>
+                      <a ng-if="paper.journal.url" ng-href="{{paper.journal.url}}" class="toooltips" title="Journal page" target="_blank">
+                        <i class="icon-external-link"></i>
+                      </a>
+                      <a ng-if="paper.bookchapter.url" ng-href="{{paper.bookchapter.url}}" class="toooltips" title="Book" target="_blank">
+                        <i class="icon-external-link"></i>
+                      </a>
+                      <a ng-if="paper.book.url" ng-href="{{paper.book.url}}" class="toooltips" title="Book" target="_blank">
+                        <i class="icon-external-link"></i>
+                      </a>
+                      <a ng-if="paper.edited.url" ng-href="{{paper.edited.url}}" class="toooltips" title="Journal page" target="_blank">
+                        <i class="icon-external-link"></i>
+                      </a>
+                      <a ng-if="paper.bibtex" ng-href="{{paper.bibtex}}" class="tooltips" title="BibTeX" target="_blank">
+                        <i class="icon-tree-conifer"></i>
+                      </a>
+                      <a ng-if="paper.download" ng-href="{{paper.download}}" class="tooltips" title="Download PDF" target="_blank">
+                        <i class="icon-cloud-download"></i>
+                      </a>
+                    </div>
+                    <h4 class="pubtitle" ng-bind="paper.title"></h4>
+                    <div class="pubauthor">
+                      <span ng-repeat="author in paper.authors">
+                        <span ng-bind="author" ng-class="{'emph': selectedCollaborator({name: author}), 'clickable': author != 'Fabio Zanasi'}" ng-click="author != 'Fabio Zanasi' ? searchFor(author) : null"></span>
+                        <span ng-hide="$last">,</span>
+                      </span>
+                    </div>
+                    <div class="pubcite">
+                      <span ng-if="paper.conference">
+                        <span class="label label-warning">Conference Paper</span>
+                        In <emph ng-bind="paper.conference.name"></emph>,
+                        <span ng-bind="paper.conference.location"></span>
+                      </span>
+                      <span ng-if="paper.journal">
+                        <span class="label label-danger">Journal Paper</span>
+                        <emph ng-bind="paper.journal.name"></emph>
+                      </span>
+                      <span ng-if="paper.bookchapter">
+                        <span class="label label-default">Book Chapter</span>
+                        In <emph ng-bind="paper.bookchapter.editors"></emph> (eds.),
+                        <emph ng-bind="paper.bookchapter.name"></emph>,
+                        <emph ng-bind="paper.bookchapter.publisher"></emph>
+                      </span>
+                      <span ng-if="paper.book">
+                        <span class="label label-default">Book</span>
+                        <emph ng-bind="paper.book.publisher"></emph>
+                      </span>
+                      <span ng-if="paper.techreport">
+                        <span class="label label-default">Technical Report</span>
+                        Technical Report
+                        <span ng-if="paper.techreport.number"><emph ng-bind="paper.techreport.number"></emph>,</span>
+                        <span ng-if="paper.techreport.institution"><span ng-bind="paper.techreport.institution"></span>,</span>
+                      </span>
+                      <span ng-if="paper.thesis">
+                        <span class="label label-default">Thesis</span>
+                        <span ng-if="paper.thesis.institution"><emph ng-bind="paper.thesis.institution"></emph>,</span>
+                      </span>
+                      <span ng-if="paper.unpublished">
+                        <span class="label label-default">Unpublished</span>
+                        <span ng-if="paper.unpublished"><emph ng-bind="paper.unpublished"></emph>,</span>
+                      </span>
+                      <span ng-bind="paper.year"></span>
+                      <span ng-if="paper.conference">
+                      <br>  <span ng-if="paper.conference.note"> <b><span ng-bind="paper.conference.note"></span></b>, </span>
+                      </span>
+                      <span ng-if="paper.journal">
+                      <br><span ng-if="paper.journal.note"><span ng-bind="paper.journal.note"></span>, </span>
+                      </span>
+                    </div>
+                  </div>
+                  <div ng-if="paper.abstract" class="pubdetails">
+                    <h4>Abstract</h4>
+                    <p ng-bind-html="paper.abstract"></p>
+                  </div>
+                </div>
+
+    <div id="pub-year-nav" class="navbar navbar-default affix-top">
+      <div class="container">
+        <span class="babbo">activities.html#year</span>
+        <a class="navbar-brand">By year:</a>
+        <ul class="nav navbar-nav">
+          <li ng-repeat="yearPapers in papersByYear | orderBy:'year':true" role="presentation">
+            <a ng-href="#pubs-in-{{yearPapers.year}}" prevent-default ng-click="gotoYear(yearPapers.year)" ng-bind="yearPapers.year"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section color-2" pub-grid="true">
+      <div class="section-container" class="row">
+        <div class="pitems">
+          <h1 ng-repeat-start="yearPapers in papersByYear | orderBy:'year':true"
+              id="pubs-in-{{yearPapers.year}}" class="year" ng-bind="yearPapers.year"
+              ng-show="getPapersToDisplay(yearPapers).length">
+          </h1>
+          <div ng-repeat-end ng-repeat="paper in getPapersToDisplay(yearPapers)" class="item" ng-class="{'has-details': paper.abstract}">
+            <div class="pubmain">
+              <div class="pubassets">
+                <a class="pubcollapse" ng-if="paper.abstract" href="">
+                  <i class="icon-expand-alt"></i>
+                </a>
+                <a ng-if="paper.conference.url" ng-href="{{paper.conference.url}}" class="toooltips" title="Conference page" target="_blank">
+                  <i class="icon-external-link"></i>
+                  </a>
+                  <a ng-if="paper.journal.url" ng-href="{{paper.journal.url}}" class="toooltips" title="Journal page" target="_blank">
+                    <i class="icon-external-link"></i>
+                    </a>
+                    <a ng-if="paper.bookchapter.url" ng-href="{{paper.bookchapter.url}}" class="toooltips" title="Book" target="_blank">
+                      <i class="icon-external-link"></i>
+                      </a>
+                      <a ng-if="paper.book.url" ng-href="{{paper.book.url}}" class="toooltips" title="Book" target="_blank">
+                        <i class="icon-external-link"></i>
+                        </a>
+                <a ng-if="paper.edited.url" ng-href="{{paper.edited.url}}" class="toooltips" title="Journal page" target="_blank">
+                    <i class="icon-external-link"></i>
+                </a>
+                <a ng-if="paper.bibtex" ng-href="{{paper.bibtex}}" class="tooltips" title="bibTeX" target="_blank">
+                  <i class="icon-bookmark"></i>
+                <a ng-if="paper.download" ng-href="{{paper.download}}" class="tooltips" title="Download PDF" target="_blank">
+                  <i class="icon-cloud-download"></i>
+                </a>
+              </div>
+              <h4 class="pubtitle" ng-bind="paper.title"></h4>
+              <div class="pubauthor">
+                <span ng-repeat="author in paper.authors">
+                  <span ng-bind="author" ng-class="{'emph': selectedCollaborator({name: author}), 'clickable': author != 'Fabio Zanasi'}" ng-click="author != 'Fabio Zanasi' ? searchFor(author) : null"></span>
+                  <span ng-hide="$last">,</span>
+                </span>
+              </div>
+              <div class="pubcite">
+                <span ng-if="paper.note"><span ng-bind="paper.note"></span>,</span>
+                <span ng-if="paper.conference">
+                  <span class="label label-primary">Conference Paper</span>
+                  In <emph ng-bind="paper.conference.name"></emph>,
+                  <span ng-bind="paper.conference.location"></span>,
+                  </span>
+                <span ng-if="paper.journal">
+                  <span class="label label-danger">Journal Paper</span>
+                  <emph ng-bind="paper.journal.name"></emph>
+                </span>
+                <span ng-if="paper.bookchapter">
+                  <span class="label label-success">Book Chapter</span>
+                  In <emph ng-bind="paper.bookchapter.editors"></emph> (eds.),
+                  <emph ng-bind="paper.bookchapter.name"></emph>,
+                  <emph ng-bind="paper.bookchapter.publisher"></emph>,
+                </span>
+                <span ng-if="paper.book">
+                  <span class="label label-success">Book</span>
+                  <emph ng-bind="paper.book.publisher"></emph>,
+                </span>
+                <span ng-if="paper.techreport">
+                  <span class="label label-default">Technical Report</span>
+                  Technical Report
+                  <span ng-if="paper.techreport.number"><emph ng-bind="paper.techreport.number"></emph>,</span>
+                  <span ng-if="paper.techreport.institution"><span ng-bind="paper.techreport.institution"></span>,</span>
+                </span>
+                <span ng-if="paper.thesis">
+                  <span class="label label-success">Thesis</span>
+                  <span ng-if="paper.thesis.institution"><span ng-bind="paper.thesis.institution"></span>,</span>
+                </span>
+                <span ng-if="paper.unpublished">
+                  <span class="label label-default">Unpublished</span>
+                  <span ng-if="paper.unpublished"><emph ng-bind="paper.unpublished"></emph>,</span>
+                </span>
+                <span ng-bind="paper.year"></span>.
+                <span ng-if="paper.journal">
+                  <br><span ng-if="paper.journal.note"><span ng-bind="paper.journal.note"></span> </span>
+                </span>
+              </div>
+            </div>
+            <div ng-if="paper.abstract" class="pubdetails">
+              <h4>Abstract</h4>
+              <p ng-bind-html="paper.abstract"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

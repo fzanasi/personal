@@ -1,0 +1,118 @@
+ [{
+     "year": 2016,
+     "id": "BSZ14b",
+     "authors": ["Filippo Bonchi", "Pawel Sobocinski", "Fabio Zanasi"],
+     "title": " A Categorical Semantics of Signal Flow Graphs.",
+     "conference": {
+         "name": "25th Conference on Concurrency Theory, CONCUR 2014",
+         "location": "Rome, Italy",
+         "url": "http://concur2014.org/",
+         "series": "LNCS",
+         "volume": "8704",
+         "pages": "435-450",
+         "note": "A journal version of this paper appeared in <i>Information and Computation</i> (see above)"
+     },
+     "download": "",
+     "abstract": "<p>We introduce IH, a sound and complete graphical theory of vector subspaces over the field of polynomial fractions, with relational composition. The theory is constructed in modular fashion, using Lack’s approach to composing PROPs with distributive laws. <BR>
+     We then view string diagrams of𝕀 ℍIH as generalised stream circuits by using a formal Laurent series semantics.We characterize the subtheory where circuits adhere to the classical notion of signal flow graphs,
+     and illustrate the use of the graphical calculus on several examples. < /p>"
+
+ }, {
+     "year": 2015,
+     "id": "FKMRS15",
+     "authors": ["Nate Foster", "Dexter Kozen", "Konstantinos Mamouras", "Mark Reitblatt", "Alexandra Silva"],
+     "title": " Probabilistic NetKAT.",
+     "techreport": {
+         "type": "Technical Report",
+         "number": "1813/40335",
+         "institution": "Cornell University"
+     },
+     "download": "http://hdl.handle.net/1813/40335",
+     "abstract": "<p>This paper develops a new language for programming software-defined networks based on a probabilistic semantics. We extend the NetKAT language with new primitives for expressing probabilistic behaviors and enrich the semantics from one based on deterministic functions to one based on measures and measurable functions on sets of packet histories. We establish fundamental properties of the semantics, prove that it is a conservative extension of the deterministic semantics, and show that it satisfies a number of natural equations. We present case studies that show how the language can be used to model a diverse collection of scenarios drawn from real-world networks.</p>"
+
+ }, {
+     "year": 2015,
+     "id": "BMSZ15",
+     "authors": ["Filippo Bonchi", "Stefan Milius", "Alexandra Silva", "Fabio Zanasi"],
+     "title": "Killing Epsilons with a Dagger: a Coalgebraic Study of Systems with Algebraic Label Structure",
+     "journal": {
+         "name": "Theoretical Computer Science",
+         "note": "This is an extended version of our CMCS 2014 paper (see below)."
+     },
+     "download": "http://www.sciencedirect.com/science/article/pii/S0304397515002406",
+     "abstract": "<p>We propose an abstract framework for modelling state-based systems with internal behaviour as e.g. given by silent or ϵ-transitions. Our approach employs monads with a parametrized fixpoint operator † to give a semantics to those systems and implement a sound procedure of abstraction of the internal transitions, whose labels are seen as the unit of a free monoid. More broadly, our approach extends the standard coalgebraic framework for state-based systems by taking into account the algebraic structure of the labels of their transitions. This allows to consider a wide range of other examples, including Mazurkiewicz traces for concurrent systems and non-deterministic transducers.</p>"
+
+ }, {
+     "year": 2015,
+     "id": "BSZ15",
+     "authors": ["Filippo Bonchi", "Pawel Sobocinski", "Fabio Zanasi"],
+     "title": "Full Abstraction for Signal Flow Graphs.",
+     "conference": {
+         "name": "POPL 2015: 42nd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
+         "location": "Mumbai, India",
+         "url": "http://popl.mpi-sws.org/2015"
+     },
+     "download": "/files/popl265-foster.pdf",
+     "abstract": "<p>bla.</p>"
+
+ }, {
+     "year": 2015,
+     "id": "JSS15",
+     "authors": ["Bart Jacobs", "Alexandra Silva", "Ana Sokolova"],
+     "title": "Trace Semantics via Determinization",
+     "journal": {
+         "name": "Journal of Computer and System Sciences",
+         "volume": 81,
+         "number": 5,
+         "pages": "859-879",
+         "note": "This is an extended version of our homonimous CMCS 2012 paper (see below)."
+     },
+     "download": "/files/determinization-journal.pdf",
+     "abstract": "<p>This paper takes a fresh look at the topic of trace semantics in the theory of coalgebras. In the last few years, two approaches, somewhat incomparable at first sight, captured successfully in a coalgebraic setting trace semantics for various types of transition systems. The first development of coalgebraic trace semantics used final coalgebras in Kleisli categories and required some non-trivial assumptions, which do not always hold, even in cases where one can reasonably speak of traces (like for weighted automata). The second development stemmed from the observation that trace semantics can also arise by performing a determinization construction and used final coalgebras in Eilenberg-Moore categories. In this paper, we develop a systematic study in which the two approaches can be studied and compared. Notably, we show that the two different views on trace semantics are equivalent, in the examples where both approaches are applicable.</p>"
+
+ }, {
+     "year": 2014,
+     "id": "BMSZ14",
+     "authors": ["Filippo Bonchi", "Stefan Milius", "Alexandra Silva", "Fabio Zanasi"],
+     "title": "How to Kill Epsilons with a Dagger -- A Coalgebraic Take on Systems with Algebraic Label Structure",
+     "conference": {
+         "name": "12th International Workshop on Coalgebraic Methods in Computer Science",
+         "location": "Grenoble, France",
+         "url": "http://www.coalg.org/cmcs14",
+         "series": "LNCS",
+         "volume": 8446,
+         "pages": "53-74",
+         "note": "A journal version of this paper appeared in <i>Theoretical Computer Science</i> (see above)"
+     },
+     "download": "http://arxiv.org/pdf/1402.4062v2.pdf",
+     "abstract": "<p>We propose an abstract framework for modeling state-based systems with internal behavior as e.g. given by silent or ǫ-transitions. Our approach employs monads with a parametrized fixpoint operator † to give a semantics to those systems and implement a sound procedure of abstraction of the internal transitions, whose labels are seen as the unit of a free monoid. More broadly, our approach extends the standard coalgebraic framework for state-based systems by taking into account the algebraic structure of the labels of their transitions. This allows to consider a wide range of other examples, including Mazurkiewicz traces for concurrent systems.</p>"
+
+ }, {
+     "year": 2014,
+     "id": "FKMST14-tr",
+     "authors": ["Nate Foster", "Dexter Kozen", "Matthew Milano", "Alexandra Silva", "Laure Thompson"],
+     "title": " A coalgebraic decision procedure for NetKAT.",
+     "techreport": {
+         "number": "1813/36255",
+         "institution": "Cornell University"
+     },
+     "abstract": "<p>Program equivalence is a fundamental problem that has practical applications across a variety of areas of computing including compilation, optimization, software synthesis, formal verification, and many others. Equivalence is undecidable in general, but in certain settings it is possible to develop domain-specific languages that are expressive enough to be practical and yet sufficiently restricted so that equivalence remains decidable. In previous work we introduced NetKAT, a domain-specific language for specifying and verifying network packet-processing functions. NetKAT provides familiar constructs such as tests, assignments, union, sequential composition, and iteration as well as custom primitives for modifying packet headers and encoding network topologies. Semantically, NetKAT is based on Kleene algebra with tests (KAT) and comes equipped with a sound and complete equational theory. Although NetKAT equivalence is decidable, the best known algorithm is hardly practical-it uses Savitch's theorem to determinize a PSPACE algorithm and requires quadratic space. This paper presents a new algorithm for deciding NetKAT equivalence. This algorithm is based on finding bisimulations between finite automata constructed from NetKAT programs. We investigate the coalgebraic theory of NetKAT, generalize the notion of Brzozowski derivatives to NetKAT, develop efficient representations of NetKAT automata in terms of spines and sparse matrices, and discuss the highlights of our prototype implementation.</p>"
+
+ }, {
+     "year": 2013,
+     "id": "BZ13",
+     "authors": ["Filippo Bonchi", "Fabio Zanasi"],
+     "title": "Saturated Semantics for Coalgebraic Logic Programming.",
+     "conference": {
+         "name": "CALCO 2013",
+         "location": "Warsaw, Poland",
+         "url": "http://www.coalg.org/calco13",
+         "series": "LNCS",
+         "volume": "8089",
+         "pages": "267-282",
+         "notes": "Best Paper Award. A journal version appeared in <i>Logical Methods in Computer Science</i> (see above)"
+     },
+     "download": "/files/epsilon-extended.pdf",
+     "abstract": "<p>In automata theory, a machine transitions from one state to the next when it reads an input symbol. It is common to also allow an automaton to transition without input, via an epsilon-transition. These epsilon-transitions are convenient, e.g., when one defines the composition of automata. However, they are not necessary, and can be eliminated. Such epsilon-elimination procedures have been studied separately for different types of automata, including non-deterministic and weighted automata. It has been noted by Hasuo that it is possible to give a coalgebraic account of epsilon-elimination for some automata using trace semantics (as defined by Hasuo, Jacobs and Sokolova).</p><p>In this paper, we give a detailed description of the epsilon-elimination procedure via trace semantics (missing in the literature). We apply this framework to several types of automata, and explore its boundary. In particular, we show that is possible (by careful choice of a monad) to define an epsilon-removal procedure for all weighted automata over the positive reals (and certain other semirings). Our definition extends the recent proposals by Sakarovitch and Lombardy for these semirings.</p>"
+
+ }]

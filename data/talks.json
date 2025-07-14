@@ -1,0 +1,134 @@
+[{ "title": "Algebraic Reasoning on Graphical Models: the Case for String Diagrams",
+"pres": [
+  { "date": "May 2023", "event": "CSW23", "url": "https://docs-dibris.github.io/csw23/",  "location": "Genova, Italy"}
+],
+"download": [{ "text": "PDF", "url": "files/talks/talkGenova23.pdf" }]
+},{ "title": "The Surprising Effectiveness of Lenses in Machine Learning",
+"pres": [
+  { "date": "April 2023", "event": "various events", "url": "",  "location": "various locations"}
+],
+"download": [{ "text": "PDF", "url": "files/talks/TalkLenses23.pdf" }]
+},{ "title": "The Logical Essentials of Machine learning",
+"pres": [
+  { "date": "April 2021", "event": "OWLS Seminar Series", "url": "https://www.cs.bham.ac.uk/~vicaryjo/owls/"}
+],
+"download": [{ "text": "PDF", "url": "https://www.math.ntnu.no/acpms/slides/acpms_zanasi.pdf" }]
+},{ "title": "Diagrammatic Algebra: from Linear to Concurrent Systems",
+  "pres": [
+    { "date": "November 2018", "event": "NII Shonan Meeting", "url": "http://shonan.nii.ac.jp/seminar/seminardetails109/", "location": "Zushi, Japan" }
+  ],
+  "download": [{ "text": "PDF", "url": "files/talks/talkShonan18.pdf" }]
+},{ "title": "Rewriting with Frobenius",
+  "pres": [
+    { "date": "July 2018", "event": "LICS 2018", "url": "https://lics.siglog.org/lics18/", "location": "Oxford, United Kingdom" }
+  ],
+  "download": [{ "text": "PDF", "url": "files/talks/talkLICS18.pdf" }]
+},{ "title": "The Logical Essentials of Bayesian Reasoning",
+  "pres": [
+    { "date": "May 2018", "event": "ACT 2018", "url": "https://www.lorentzcenter.nl/lc/web/2018/969/info.php3?wsid=969&venue=Oort", "location": "Lorentz Center, Leiden, The Netherlands" }
+  ],
+  "download": [{ "text": "PDF", "url": "files/talks/talkACT18.pdf" }],
+   "video": [{"text":"Video", "url": "https://www.youtube.com/watch?v=BLyeUp3_mcc&t=4s"}]
+},{ "title": "A Universal Construction for (Co)relations (Best Presentation Award)",
+  "pres": [
+    { "date": "June 2017", "event": "CALCO 2017", "url": "http://coalg.org/mfps-calco2017/", "location": "Ljubljana, Slovenia" }
+  ],
+  "download": [{ "text": "PDF", "url": "files/talks/talkCalco17.pdf" }],
+   "video": [{"text":"Video", "url": "files/talks/talkCalco17.m4v"}]
+},{ "title": "Confluence for Graph Rewriting with Interfaces",
+  "pres": [
+    { "date": "April 2017", "event": "ESOP 2017", "url": "http://www.etaps.org/index.php/2017/esop", "location": "Uppsala, Sweden" }
+  ],
+  "download": [{ "text": "PDF", "url": "files/talks/talkESOP17.pdf" }],
+   "video": [{"text":"Video", "url": "files/talks/talkESOP17.wmv"}]
+},
+{ "title": "New Foundations for String Diagram Rewriting",
+  "pres": [
+    { "date": "May 2017", "event": "Seminar, University of Birmingham", "url": "http://talks.bham.ac.uk/talk/index/2677", "location": "Birmingham, United Kingdom" },
+    { "date": "April 2017", "event": "Categories, Logic, and Physics in Scotland", "url": "http://conferences.inf.ed.ac.uk/clapscotland/#", "location": "Glasgow, Scotland" },
+    { "date": "April 2017", "event": "Graph as Models - ETAPS Workshop", "url": "http://www.dcs.gla.ac.uk/gam2017/#section-program", "location": "Uppsala, Sweden"}
+  ],
+  "download": [{ "text": "PDF GAM", "url": "files/talks/talkGAM17.pdf" },{ "text": "PDF B'ham", "url": "files/talks/talkBirmingham17.pdf" }],
+   "video": [{"text":"Video GAM", "url": "files/talks/talkGAM17.wmv"},{ "text": "Video B'ham", "url": "files/talks/talkBirmingham17.m4v" }]
+},
+{ "title": "Formal Semantics of Bayesian Inference",
+  "pres": [
+    { "date": "February 2017", "event": "OASIS seminar, University of Oxford", "url": "https://www.cs.ox.ac.uk/seminars/1716.html", "location": "Oxford, United Kingdom" },
+    { "date": "March 2017", "event": "“Probabilistic Programming Languages” Bellairs Workshop", "url": "http://cs.mcgill.ca/~prakash/Bellairs/17/bellairs17.html", "location": "Bellairs, Barbados"}
+  ],
+  "download": [{ "text": "PDF", "url": "files/talks/talkOASIS17.pdf" }]
+},
+ { "title": "Rewriting Modulo Symmetric Monoidal Structure",
+ "pres": [{ "date": "July 2016", "event": "LICS 2016", "url": "http://lics.rwth-aachen.de/lics16/", "location": "New York, United States" }],
+ "download": [{ "text": "PDF", "url": "files/talks/talkLics16.pdf" }],
+  "video": [{"text":"Video", "url": "files/talks/talkLics16.wmv"}]
+ },
+ { "title": "A Predicate/State Transformer Semantics for Bayesian Learning ",
+ "pres": [{ "date": "May 2016", "event": "MFPS 2016", "url": "http://conferences.au.dk/mfps-2016/", "location": "Pittsbourgh, United States" }],
+ "download": [{ "text": "PDF", "url": "files/talks/talkMfps16a.pdf" }],
+ "video": [{"text":"Video", "url": "files/talks/talkMfps16a.wmv"}]
+ },
+ { "title": "The Algebra of Partial Equivalence Relations.",
+ "pres": [{ "date": "May 2016", "event": "MFPS 2016", "url": "http://conferences.au.dk/mfps-2016/", "location": "Pittsbourgh, United States" }],
+ "download": [{ "text": "PDF", "url": "files/talks/talkMfps16b.pdf" }],
+  "video": [{"text":"Video", "url": "files/talks/talkMfps16b.wmv"}]
+ },
+ { "title": "Interacting Hopf Algebras - The Theory of Linear Systems.",
+   "pres": [
+     { "date": "January 2016", "event": "Logic and Semantics Seminar, University of Cambridge", "url": "http://talks.cam.ac.uk/talk/index/62231", "location": "Cambridge, United Kingdom"},
+     { "date": "October 2015", "event": "PhD thesis defense", "url": "", "location": "Lyon, France"},
+     { "date": "October 2015", "event": "Annual national meeting of research groups GeoCal-LAC-LTP", "url": "https://members.loria.fr/SMerz/2015-GeoCal-LAC-LTP/abstracts.html#zanasi", "location": "LORIA, Nancy, France"},
+     { "date": "June 2015", "event": "Seminar, University of Marseille", "url": "https://www.i2m.univ-amu.fr/Seminaire-Logique-et-Interactions?date_debut=2015-06-18&lang=fr", "location": "Luminy, France"},
+     { "date": "March 2015", "event": "“Coalgebras in Quantum Physics” Bellairs Workshop", "url": "http://homepage.tudelft.nl/c9d1n/bellairs2015/bellairs15.html", "location": "Bellairs, Barbados"},
+     { "date": "May 2014", "event": "Categories, Homotopy and Rewriting (ANR CATHRE project meeting)", "url": "http://cathre.math.cnrs.fr/", "location": "Institut Henry Poincaré, Paris"}
+   ],
+   "download": [
+     { "text": "PDF (PhD Defense)", "url": "files/talks/talkPhdDefense.pdf"},
+     { "text": "PDF (IHP, Paris)", "url": "files/talks/talkParisCATHRE14.pdf"}
+   ]
+ },
+ { "title": "Full Abstraction for Signal Flow Graphs",
+ "pres": [{ "date": "January 2015", "event": "POPL 2015", "url": "http://popl.mpi-sws.org/2015/", "location": "Mumbai, India" }],
+ "download": [{ "text": "PDF", "url": "files/talks/talkPopl15.pdf" }]
+ },
+ { "title": "A Categorical Semantics of Signal Flow Graphs",
+ "pres": [{ "date": "September 2014", "event": "CONCUR 2014", "url": "http://wikicfp.com/cfp/servlet/event.showcfp?eventid=36252&copyownerid=894", "location": "Rome, Italy" }],
+ "download": [{ "text": "PDF", "url": "files/talks/talkConcur14.pdf" }]
+ },
+ { "title": "Interacting Bialgebras are Frobenius",
+ "pres": [{ "date": "April 2014", "event": "FoSSaCS 2014 (ETAPS)", "url": "http://www.etaps.org/index.php/2014/fossacs", "location": "Grenoble, France" }],
+ "download": [{ "text": "PDF", "url": "files/talks/talkFossacs14.pdf" }]
+ },
+ { "title": "How to Kill Epsilons with a Dagger -- A Coalgebraic Take on Systems with Algebraic Label Structure",
+ "pres": [{ "date": "April 2014", "event": "CMCS 2014 (ETAPS)", "url": "http://www.coalg.org/cmcs14/", "location": "Grenoble, France" },{ "date": "May 2014", "event": "LAMA Seminar, University of Savoie", "url":"https://lama.univ-savoie.fr/index.php/lama-html/lama-files/sem-geometrie/~lachaud/People/LACHAUD-JO/~raffalli?use=seminaires&equipe=logique&lang=fr&annee=1&ordre=&aucunresume=1","location": "Chambery, France" }],
+  "download": [{ "text": "PDF", "url": "files/talks/talkCmcs14.pdf" }]
+ },
+ { "title": "Saturated Semantics for Coalgebraic Logic Programming.",
+ "pres": [
+   { "date": "September 2013", "event": "CALCO 2013", "url": "http://www.coalg.org/calco13", "location": "Warsaw, Poland" },
+   { "date": "June 2013", "event": "Seminar, University of Pisa", "url": "", "location": "Pisa, Italy" },
+      { "date": "April 2013", "event": "LAMA Seminar, University of Savoie", "url":"https://lama.univ-savoie.fr/index.php/lama-html/lama-files/sem-geometrie/~lachaud/People/LACHAUD-JO/~raffalli?use=seminaires&equipe=logique&lang=fr&annee=1&ordre=&aucunresume=1","location": "Chambery, France" }
+  ],
+ "download": [{ "text": "PDF (CALCO)", "url": "files/talks/talkCalco13.pdf" }]
+ },
+ { "title": "On Creative Definitions in Leśniewski’s Ontology (Invited talk).",
+ "pres": [
+   { "date": "October 2013", "event": "Workshop ``Mereology: Parts and Wholes in Logic and Ontology'', University of Rennes", "url": "https://philo.univ-rennes1.fr/interlocuteurs/pierre-joray", "location": "Rennes, France" }
+  ],
+ "download": [{ "text": "PDF", "url": "files/talks/talkRennes.pdf" }]
+ },
+{ "title": "A Characterization Theorem for the Alternation-Free Fragment of the Modal µ-Calculus.",
+  "pres": [{ "date": "July 2013", "event": "LICS 2013", "url": "http://lics.rwth-aachen.de/lics13/", "location": "New Orleans, United States"}],
+  "download": [{ "text": "PDF", "url": "files/talks/talkLics13.pdf" }]
+},
+{ "title": "An Introduction to Monadic Semantics for Computational Effects.",
+  "pres": [{ "date": "April 2012", "event": "SELP annual meeting", "url": "http://selp.apnetwork.it/sito/?pagina=p&titolo=Seminari", "location": "Bologna, Italy"}],
+  "download": [{ "text": "PDF", "url": "files/talks/talkSelp13.pdf" }]
+},
+{ "title": "A tutorial on Monads and Algebraic Theories (blackboard talk)",
+  "pres": [{ "date": "April 2012", "event": "Algebra-Coalgebra seminar, University of Amsterdam", "url": "http://www.illc.uva.nl/alg-coalg/#previous", "location": "Institute for Logic, Language and Computation (ILLC), Amsterdam, Netherlands"}]
+},
+{ "title": "On S.Leśniewski’s Ontology (blackboard talk)",
+  "pres": [{ "date": "June 2009", "event": "Seminars of Logic and Philosophy of Language, University of Siena", "location": "Siena, Italy" }]
+}
+]

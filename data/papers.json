@@ -1,0 +1,1593 @@
+[{
+   "year":2025,
+   "id":"LRSZ25",
+   "authors":[
+      "Gabriele Lobbia",
+      "Wojciech Rozowski",
+      "Ralph Sarkis",
+      "Fabio Zanasi"
+   ],
+   "title":"Quantitative Monoidal Algebra.",
+   "conference":{
+      "name":"50th International Symposium on Mathematical Foundations of Computer Science (MFCS)",
+      "location":"Warsaw, Poland",
+      "url":"https://mfcs2025.mimuw.edu.pl/",
+      "series":"",
+      "volume":"",
+      "pages":""
+    },
+    "download":"https://arxiv.org/abs/2410.09229"
+},{
+   "year":2025,
+   "id":"FGBFCZN25",
+   "authors":[
+      "Stefano Fioravanti",
+      "Francesco Giannini",
+      "Pietro Barbiero",
+      "Paolo Frazzetto",
+      "Roberto Confalonieri",
+      "Fabio Zanasi",
+      "Nicolo Navarin"
+   ],
+   "title":"Logical Coherent Explanations through Categorical Explaining Functors.",
+   "conference":{
+      "name":"22nd International Conference on Principles of Knowledge Representation and Reasoning",
+      "location":"Melbourne, Australia",
+      "url":"https://kr.org/KR2025/",
+      "series":"",
+      "volume":"",
+      "pages":""
+    }
+},{
+   "year":2025,
+   "id":"SZ25",
+   "authors":[
+      "Ralph Sarkis",
+      "Fabio Zanasi"
+   ],
+   "title":"String Diagrams for Graded Monoidal Theories with an Application to Imprecise Probability.",
+   "conference":{
+      "name":"11th Conference on Algebra and Coalgebra in Computer Science (CALCO)",
+      "location":"Glasgow, Scotland",
+      "url":"https://coalg.org/calco-mfps-2025/",
+      "series":"",
+      "volume":"",
+      "pages":""
+    },
+    "download":"https://arxiv.org/abs/2501.18404"
+},{
+   "year":2025,
+   "id":"LZ25",
+   "authors":[
+      "Antonio Lorenzin",
+      "Fabio Zanasi"
+   ],
+   "title":"An Algebraic Approach to Moralisation and Triangulation of Probabilistic Graphical Models.",
+   "conference":{
+      "name":"11th Conference on Algebra and Coalgebra in Computer Science (CALCO)",
+      "location":"Glasgow, Scotland",
+      "url":"https://coalg.org/calco-mfps-2025/",
+      "series":"",
+      "volume":"",
+      "pages":""
+    },
+    "download":"https://arxiv.org/abs/2503.11820"
+},{
+   "year":2025,
+   "id":"DGZ25",
+   "authors":[
+      "Alessandro Di Giorgio",
+      "Dan Ghica",
+      "Fabio Zanasi"
+   ],
+   "title":"Rewriting for Traced Monoidal Closed Categories.",
+   "conference":{
+      "name":"18th International Conference on Graph Transformation (ICGT)",
+      "location":"Koblenz, Germany",
+      "url":"https://conf.researchr.org/home/icgt-2025",
+      "series":"",
+      "volume":"",
+      "pages":""
+   },
+   "download":"files/paperICGT25.pdf"
+},{
+   "year":2025,
+   "id":"TPSZ25",
+   "authors":[
+      "Mateo Torres-Ruiz",
+      "Robin Piedeleu",
+      "Alexandra Silva",
+      "Fabio Zanasi"
+   ],
+   "title":"A Complete Axiomatisation of Equivalence for Discrete Probabilistic Programming.",
+   "conference":{
+      "name":"34th European Symposium on Programming (ESOP)",
+      "location":"Hamilton, Canada",
+      "url":"https://etaps.org/2025/conferences/esop/",
+      "series":"",
+      "volume":"",
+      "pages":""
+    },
+    "download":"files/paperESOP25.pdf"
+},{
+   "year":2025,
+   "id":"WZ25",
+   "authors":[
+      "Paul Wilson",
+      "Fabio Zanasi"
+   ],
+   "title":"Data-Parallel Differentiation by Optic Composition.",
+   "conference":{
+      "name":"POPL 2025 Workshop on Languages for Inference (LAFI)",
+      "location":"Denver, USA",
+      "url":"https://popl25.sigplan.org/home/lafi-2025",
+      "series":"",
+      "volume":"",
+      "pages":""
+   },
+   "download":"files/paperLAFI25.pdf"
+},{
+   "year":2025,
+   "id":"GLZ25",
+   "authors":[
+      "Ella Gale",
+      "Leo Lobski",
+      "Fabio Zanasi"
+   ],
+   "title":"A Categorical Model for Organic Chemistry.",
+   "journal":{
+      "name":"Theoretical Computer Science",
+      "volume":"",
+      "pages":"",
+      "url":"https://www.journals.elsevier.com/theoretical-computer-science/",
+      "note":"This is an extended version of our ICTAC 2023 and ICTAC 2024 papers (see below)."
+   },
+   "download":"files/paperTCS25.pdf"
+},{
+   "year":2025,
+   "id":"APSZ25",
+   "authors":[
+      "Thibaut Antoine",
+      "Robin Piedeleu",
+      "Alexandra Silva",
+      "Fabio Zanasi"
+   ],
+   "title":"A Complete Diagrammatic Calculus for Automata Simulation.",
+   "conference":{
+      "name":"33rd EACSL Annual Conference on Computer Science Logic (CSL)",
+      "location":"Amsterdam, The Netherlands",
+      "url":"https://csl2025.github.io/index",
+      "series":"",
+      "volume":"",
+      "pages":""
+    },
+   "download":"files/paperCSL25.pdf"
+},{
+   "year":2025,
+   "id":"CCGZ25",
+   "authors":[
+      "Matteo Capucci",
+      "Geoff Cruttwell",
+      "Neil Ghani",
+      "Fabio Zanasi"
+   ],
+   "title":"A Fibrational Theory of First Order Differential Structures.",
+   "bookchapter":{
+      "name":"Fundamental Structures in Computational and Pure Mathematics",
+      "editors":"Kurusch Ebrahimi-Fard, Hans Munthe-Kaas, and Cordian Riener",
+      "publisher":"Birkhäuser",
+      "url":""
+   },
+   "download":"http://arxiv.org/abs/2409.05763",
+   "abstract":"<p>TWe develop a categorical framework for reasoning about abstract properties of differentiation, based on the theory of fibrations. Our work encompasses the first-order fragments of several existing categorical structures for differentiation, including cartesian differential categories, generalised cartesian differential categories, tangent categories, as well as the versions of these categories axiomatising reverse derivatives. We explain uniformly and concisely the requirements expressed by these structures, using sections of suitable fibrations as unifying concept. Our perspective sheds light on their similarities and differences, as well as simplifying certain constructions from the literature.< /p>"
+},{
+   "year":2024,
+   "id":"MPZ25",
+   "authors":[
+      "Aleksandar Milosavljevic",
+      "Robin Piedeleu",
+      "Fabio Zanasi"
+   ],
+   "title":"Rewriting for Symmetric Monoidal Categories with Commutative (Co)Monoid Structure.",
+   "journal":{
+      "name":"Logical Methods in Computer Science",
+      "volume":"",
+      "pages":"",
+      "url":"",
+      "note":"This is an extended version of our CALCO'23 paper."
+   },
+   "download":"https://arxiv.org/abs/2204.04274",
+   "abstract":"String diagrams are pictorial representations for morphisms of symmetric monoidal categories. They constitute an intuitive and expressive graphical syntax, which has found application in a very diverse range of fields including concurrency theory, quantum computing, control theory, machine learning, linguistics, and digital circuits. Rewriting theory for string diagrams relies on a combinatorial interpretation as double-pushout rewriting of certain hypergraphs. As previously studied, there is a `tension' in this interpretation: in order to make it sound and complete, we either need to add structure on string diagrams (in particular, Frobenius algebra structure) or pose restrictions on double-pushout rewriting (resulting in 'convex' rewriting). From the string diagram viewpoint, imposing a full Frobenius structure may not always be natural or desirable in applications, which motivates our study of a weaker requirement: commutative monoid structure. In this work we characterise string diagram rewriting modulo commutative monoid equations, via a sound and complete interpretation in a suitable notion of double-pushout rewriting of hypergraphs.< /p>"
+},{
+   "year":2024,
+   "id":"LZG24",
+   "authors":[
+      "Leo Lobski",
+      "Fabio Zanasi",
+      "Ella Gale"
+   ],
+   "title":"Disconnection Rules are Complete for Chemical Reactions.",
+   "conference":{
+      "name":"21st International Colloquium on Theoretical Aspects of Computing (ICTAC)",
+      "location":"Bangkok, Thailand",
+      "url":"https://ictac2024.cs.ait.ac.th/",
+      "series":"",
+      "volume":"",
+      "pages":""
+    },
+    "download":"files/paperICTAC24.pdf"
+},{
+   "year":2024,
+   "id":"PLZ24",
+   "authors":[
+      "Ekaterina Piotrovskaya",
+      "Leo Lobski",
+      "Fabio Zanasi"
+   ],
+   "title":"Learning Closed Signal Flow Graphs.",
+   "conference":{
+      "name":"21st International Colloquium on Theoretical Aspects of Computing (ICTAC)",
+      "location":"Bangkok, Thailand",
+      "url":"https://ictac2024.cs.ait.ac.th/",
+      "series":"",
+      "volume":"",
+      "pages":""
+    },
+    "download":"https://arxiv.org/abs/2407.00245"
+},{
+   "year":2024,
+   "id":"PZ24",
+   "authors":[
+      "Robin Piedeleu",
+      "Fabio Zanasi"
+   ],
+   "title":"An Introduction to String Diagrams for Computer Scientists.",
+   "book":{
+      "name":"",
+      "editors":"",
+      "publisher":"Cambridge University Press",
+      "url":"https://www.cambridge.org/"
+   },
+   "download":"https://arxiv.org/abs/2305.08768",
+   "abstract":"This document is an elementary introduction to string diagrams. It takes a computer science perspective: rather than using category theory as a starting point, we build on intuitions from formal language theory, treating string diagrams as a syntax with its semantics. After the basic theory, pointers are provided to contemporary applications of string diagrams in various fields of science."
+},{
+     "year":2024,
+     "id":"WGZ24",
+     "authors":[
+        "Paul Wilson",
+        "Dan Ghica",
+        "Fabio Zanasi"
+     ],
+     "title":"String Diagrams for Strictification and Coherence.",
+     "journal":{
+        "name":"Logical Methods in Computer Science",
+        "volume":"",
+        "pages":"",
+        "url":"",
+        "note":"This is an extended version of our CSL'23 paper."
+     },
+      "download":"https://arxiv.org/pdf/2201.11738"
+  },{
+   "year":2024,
+   "id":"GBHSZ24",
+   "authors":[
+      "Tao Gu",
+      "Jialu Bao",
+      "Justin Hsu",
+      "Alexandra Silva",
+      "Fabio Zanasi"
+   ],
+   "title":"A Categorical Approach to DIBI Models.",
+   "conference":{
+      "name":"9th International Conference on Formal Structures for Computation and Deduction (FSCD)",
+      "location":"Tallinn, Estonia",
+      "url":"https://cs.ioc.ee/fscd24/",
+      "series":"",
+      "volume":"",
+      "pages":""
+    },
+    "download":"files/paperFSCD24a.pdf"
+},{
+   "year":2024,
+   "id":"TPSZ24",
+   "authors":[
+      "Mateo Torres-Ruiz",
+      "Robin Piedeleu",
+      "Alexandra Silva",
+      "Fabio Zanasi"
+   ],
+   "title":"On Iteration in Discrete Probabilistic Programming.",
+   "conference":{
+      "name":"9th International Conference on Formal Structures for Computation and Deduction (FSCD)",
+      "location":"Tallinn, Estonia",
+      "url":"https://cs.ioc.ee/fscd24/",
+      "series":"",
+      "volume":"",
+      "pages":""
+    },
+    "download":"files/paperFSCD24b.pdf"
+},{
+     "year":2023,
+     "id":"CGGWZ23",
+     "authors":[
+        "Geoff Cruttwell",
+        "Bruno Gavranovic",
+        "Neil Ghani",
+        "Paul Wilson",
+        "Fabio Zanasi"
+     ],
+     "title":"Deep Learning with Parametric Lenses.",
+     "unpublished":"Manuscript",
+      "download":"files/paperDeepLearningLenses.pdf"
+  },{
+     "year":2023,
+     "id":"MPZ23",
+     "authors":[
+        "Aleksandar Milosavljevic",
+        "Robin Piedeleu",
+        "Fabio Zanasi"
+     ],
+     "title":"String Diagram Rewriting Modulo Commutative (Co)Monoid Structure.",
+     "conference":{
+        "name":"10th Conference on Algebra and Coalgebra in Computer Science (CALCO)",
+        "location":"Bloomington, Indiana",
+        "url":"https://coalg.org/calco-mfps-2023/",
+        "series":"",
+        "volume":"",
+        "pages":""
+      },
+      "download":"https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CALCO.2023.9"
+  },{
+     "year":2023,
+     "id":"LZG23",
+     "authors":[
+        "Leo Lobski",
+        "Fabio Zanasi",
+        "Ella Gale"
+     ],
+     "title":"A Categorical Approach to Synthetic Chemistry.",
+     "conference":{
+        "name":"20th International Colloquium on Theoretical Aspects of Computing (ICTAC)",
+        "location":"Lima, Peru",
+        "url":"https://ictac2023.compsust.utec.edu.pe/",
+        "series":"",
+        "volume":"",
+        "pages":""
+      },
+      "download":"files/paperICTAC23.pdf"
+  },{
+     "year":2023,
+     "id":"WZ23",
+     "authors":[
+        "Paul Wilson",
+        "Fabio Zanasi"
+     ],
+     "title":"An Axiomatic Approach to Differentiation of Polynomial Circuits.",
+     "journal":{
+        "name":"Journal of Logical and Algebraic Methods in Programming.",
+        "volume":"",
+        "pages":"",
+        "url":"",
+        "note":"This is an extended version of our ICGT 2022 paper (see below)."
+     },
+      "download":"files/paperJLAMP23.pdf"
+  },{
+     "year":2023,
+     "id":"PZ23",
+     "authors":[
+        "Robin Piedeleu",
+        "Fabio Zanasi"
+     ],
+     "title":"A Finite Axiomatisation of Finite-State Automata Using String Diagrams.",
+     "journal":{
+        "name":"Logical Methods in Computer Science",
+        "volume":"",
+        "pages":"",
+        "url":""
+     },
+      "download":"https://arxiv.org/abs/2211.16484"
+  },{
+     "year":2023,
+     "id":"AGSZ23",
+     "authors":[
+        "Mario Alvarez Picallo",
+        "Dan Ghica",
+        "David Sprunger",
+        "Fabio Zanasi"
+     ],
+     "title":"Functorial String Diagrams for Reverse-Mode Automatic Differentiation.",
+     "conference":{
+        "name":"Computer Science Logic 2023 (CSL)",
+        "location":"Warsaw, Poland",
+        "url":"https://csl2023.mimuw.edu.pl/",
+        "series":"",
+        "volume":"",
+        "pages":""
+      },
+      "download":"https://arxiv.org/abs/2107.13433"
+  },{
+       "year":2023,
+       "id":"WGZ23",
+       "authors":[
+          "Paul Wilson",
+          "Dan Ghica",
+          "Fabio Zanasi"
+       ],
+       "title":"String diagrams for non-strict monoidal categories.",
+       "conference":{
+          "name":"Computer Science Logic 2023 (CSL)",
+          "location":"Warsaw, Poland",
+          "url":"https://csl2023.mimuw.edu.pl/",
+          "series":"",
+          "volume":"",
+          "pages":""
+        },
+        "download":"https://arxiv.org/abs/2201.11738"
+    },{
+   "year":2022,
+   "id":"GPZ22",
+   "authors":[
+      "Tao Gu",
+      "Robin Piedeleu",
+      "Fabio Zanasi"
+   ],
+   "title":"A Complete Diagrammatic Calculus for Boolean Satisfiability.",
+   "conference":{
+      "name":"38th International Conference on Mathematical Foundations of Programming Semantics (MFPS)",
+      "location":"Ithaca, USA",
+      "url":"https://www.cs.cornell.edu/mfps-2022/",
+      "series":"",
+      "volume":"",
+      "pages":""
+    },
+     "download":"https://piedeleu.com/publications/sat-algebra.pdf"
+},{
+   "year":2022,
+   "id":"LZ22",
+   "authors":[
+      "Leo Lobski",
+      "Fabio Zanasi"
+   ],
+   "title":"String Diagrams for Layered Explanations.",
+   "conference":{
+      "name":"Applied Category Theory (ACT)",
+      "location":"Glasgow, Scotland",
+      "url":"https://msp.cis.strath.ac.uk/act2022/",
+      "series":"",
+      "volume":"",
+      "pages":""
+    },
+     "download":"files/paperACT22.pdf"
+},{
+     "year":2022,
+     "id":"AGSZ22",
+     "authors":[
+        "Mario Alvarez Picallo",
+        "Dan Ghica",
+        "David Sprunger",
+        "Fabio Zanasi"
+     ],
+     "title":"Rewriting for Monoidal Closed Categories.",
+     "conference":{
+        "name":"7th International Conference on Formal Structures for Computation and Deduction (FSCD)",
+        "location":"Haifa, Israel",
+        "url":"https://www.cs.tau.ac.il/~nachumd/FSCD/",
+        "series":"",
+        "volume":"",
+        "pages":""
+       }
+  },{
+     "year":2022,
+     "id":"WZ22",
+     "authors":[
+        "Paul Wilson",
+        "Fabio Zanasi"
+     ],
+     "title":"Categories of Differentiable Polynomial Circuits for Machine Learning.",
+     "conference":{
+        "name":"15th International Conference on Graph Transformation (ICGT)",
+        "location":"Nantes, France",
+        "url":"https://icgt2022.gitlab.io/",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"https://arxiv.org/abs/2203.06430"
+  },{
+     "year":2022,
+     "id":"CGGWZ21",
+     "authors":[
+        "Geoff Cruttwell",
+        "Bruno Gavranovic",
+        "Neil Ghani",
+        "Paul Wilson",
+        "Fabio Zanasi"
+     ],
+     "title":"Categorical Foundations of Gradient-Based Learning.",
+     "conference":{
+        "name":"31st European Symposium on Programming (ESOP)",
+        "location":"Munich, Germany",
+        "url":"https://etaps.org/2022/esop",
+        "series":"",
+        "volume":"",
+        "pages":"",
+        "note":"Nominated for EATCS Best Paper Award at ETAPS'22."
+     },
+     "download":"https://arxiv.org/abs/2103.01931"
+  },
+  {
+     "year":2022,
+     "id":"BGKSZ22b",
+     "authors":[
+        "Filippo Bonchi",
+        "Fabio Gadducci",
+        "Aleks Kissinger",
+        "Pawel Sobocinski",
+        "Fabio Zanasi"
+     ],
+     "title":"String Diagram Rewrite Theory III: Confluence with and without Frobenius",
+     "journal":{
+        "name":"Mathematical Structures in Computer Science",
+        "volume":"",
+        "pages":"",
+        "url":""
+     },
+     "download":"https://arxiv.org/abs/2109.06049"
+  },
+  {
+     "year":2022,
+     "id":"BGKSZ22c",
+     "authors":[
+        "Filippo Bonchi",
+        "Fabio Gadducci",
+        "Aleks Kissinger",
+        "Pawel Sobocinski",
+        "Fabio Zanasi"
+     ],
+     "title":"String Diagram Rewrite Theory II: Rewriting with Symmetric Monoidal Structure",
+     "journal":{
+        "name":"Mathematical Structures in Computer Science",
+        "volume":"",
+        "pages":"",
+        "url":""
+     },
+     "download":"https://arxiv.org/abs/2104.14686"
+  },
+  {
+     "year":2022,
+     "id":"BGKSZ22",
+     "authors":[
+        "Filippo Bonchi",
+        "Fabio Gadducci",
+        "Aleks Kissinger",
+        "Pawel Sobocinski",
+        "Fabio Zanasi"
+     ],
+     "title":"String Diagram Rewrite Theory I: Rewriting with Frobenius Structure",
+     "journal":{
+        "name":"Journal of the ACM",
+        "volume":"",
+        "pages":"",
+        "url":""
+     },
+     "download":"https://arxiv.org/abs/2012.01847"
+  },
+  {
+     "year":2021,
+     "id":"GZ21",
+     "authors":[
+        "Tao Gu",
+        "Fabio Zanasi"
+     ],
+     "title":"Functorial Semantics as a Unifying Perspective on Logic Programming.",
+     "conference":{
+        "name":"9th Conference on Algebra and Coalgebra in Computer Science (CALCO)",
+        "location":"Salzburg, Austria",
+        "url":"https://www.coalg.org/calco-mfps2021/",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"files/paperCALCO21a.pdf"
+  },
+  {
+     "year":2021,
+     "id":"BGZ21",
+     "authors":[
+        "Filippo Bonchi",
+        "Alessandro Di Giorgio",
+        "Fabio Zanasi"
+     ],
+     "title":"From Farkas' lemma to linear programming: an exercise in diagrammatic algebra.",
+     "conference":{
+        "name":"9th Conference on Algebra and Coalgebra in Computer Science (CALCO)",
+        "location":"Salzburg, Austria",
+        "url":"https://www.coalg.org/calco-mfps2021/",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"files/paperCALCO21b.pdf"
+  },
+  {
+     "year":2021,
+     "id":"JKZ21",
+     "authors":[
+        "Bart Jacobs",
+        "Aleks Kissinger",
+        "Fabio Zanasi"
+     ],
+     "title":"Causal Inference by String Diagram Surgery --- A Diagrammatic Approach to Interventions and Counterfactuals.",
+     "journal":{
+        "name":"Mathematical Structures in Computer Science",
+        "volume":"",
+        "pages":"",
+        "url":"",
+        "note":"This is an extended version of our FoSSaCS'19 paper."
+     },
+     "download":"files/paperMSCS21.pdf"
+  },
+  {
+     "year":2021,
+     "id":"BPSZ21",
+     "authors":[
+        "Filippo Bonchi",
+        "Robin Piedeleu",
+        "Pawel Sobocinski",
+        "Fabio Zanasi"
+     ],
+     "title":"Bialgebraic foundations for the operational semantics of string diagrams.",
+     "journal":{
+        "name":"Information and Computation",
+        "volume":"",
+        "pages":"",
+        "url":"",
+        "note":"This is an extended version of our CONCUR'19 paper."
+     },
+     "download":"https://www.sciencedirect.com/science/article/abs/pii/S0890540121000821"
+  },
+  {
+     "year":2021,
+     "id":"PZ21",
+     "authors":[
+        "Robin Piedeleu",
+        "Fabio Zanasi"
+     ],
+     "title":"A String Diagrammatic Axiomatisation of Finite-State Automata.",
+     "conference":{
+        "name":"24rd International Conference on Foundations of Software Science and Computation Structures (FoSSaCS)",
+        "location":"Luxembourg",
+        "url":"https://etaps.org/2021/fossacs",
+        "series":"",
+        "volume":"",
+        "pages":"",
+        "note":"EATCS Best Paper Award at ETAPS'21."
+     },
+     "download":"https://arxiv.org/abs/2009.14576"
+  },
+  {
+     "year":2021,
+     "id":"WZ21",
+     "authors":[
+        "Paul Wilson",
+        "Fabio Zanasi"
+     ],
+     "title":"The Cost of Compositionality: A High-Performance Implementation of String Diagram Composition.",
+     "conference":{
+        "name":"Applied Category Theory 2021",
+        "location":"Cambridge",
+        "url":"https://www.cl.cam.ac.uk/events/act2021/#:~:text=The%204th%20International%20Conference%20on,at%20MIT%2C%20Oxford%20and%20Leiden.",
+        "series":"",
+        "volume":"",
+        "pages":"",
+        "note":""
+     },
+     "download":"https://arxiv.org/abs/2105.09257"
+  },
+  {
+     "year":2021,
+     "id":"KBLSZ21",
+     "authors":[
+        "Tobias Kappe",
+        "Paul Brunet",
+        "Bas Luttik",
+        "Alexandra Silva",
+        "Fabio Zanasi"
+     ],
+     "title":"Equivalence Checking for Weak Bi-Kleene Algebra.",
+     "journal":{
+        "name":"Logical Methods in Computer Science (CONCUR'17 Special Issue)",
+        "volume":"",
+        "pages":"",
+        "url":"",
+        "note":"This is an invited extended version of our CONCUR'17 paper."
+     },
+     "download":"https://arxiv.org/abs/1807.02102"
+  },
+  {
+     "year":2021,
+     "id":"CFVZ21",
+     "authors":[
+        "Facundo Carreiro",
+        "Alessandro Facchini",
+        "Yde Venema",
+        "Fabio Zanasi"
+     ],
+     "title":"Model Theory of Monadic Predicate Logic with the Infinity Quantifier.",
+     "journal":{
+        "name":"Archive for Mathematical Logic",
+        "volume":"",
+        "pages":"",
+        "url":"",
+        "note":"This journal article elaborates and extends some of the contents of our LICS'13 and LICS'14 papers."
+     },
+     "download":"https://www.sciencedirect.com/science/article/abs/pii/S0890540121000821"
+  },
+  {
+     "year":2021,
+     "id":"GZ21",
+     "authors":[
+        "Tao Gu",
+        "Fabio Zanasi"
+     ],
+     "title":"Coalgebraic Semantics for Probabilistic Logic Programming.",
+     "journal":{
+        "name":"Logical Methods in Computer Science (CALCO'19 Special Issue)",
+        "volume":"17",
+        "pages":"1--35",
+        "url":"",
+        "note":"This is an invited extended version of our CALCO'19 paper."
+     },
+     "download":"https://arxiv.org/abs/2012.03916"
+  },
+  {
+     "year":2021,
+     "id":"BSZ21",
+     "authors":[
+        "Filippo Bonchi",
+        "Pawel Sobocinski",
+        "Fabio Zanasi"
+     ],
+     "title":"A Survey of Compositional Signal Flow Theory.",
+     "journal":{
+        "name":"IFIP Advances in Information and Communication Technology",
+        "volume":"IFIP 60 Year Volume",
+        "pages":"to appear",
+        "url":"",
+        "note":"Invited chapter to celebrate 60 years of the International Federation for Information Processing (IFIP)."
+     },
+     "download":"files/paperIFIP21.pdf"
+  },
+  {
+     "year":2020,
+     "id":"WZ20",
+     "authors":[
+        "Paul Wilson",
+        "Fabio Zanasi"
+     ],
+     "title":"Reverse Derivative Ascent: A Categorical Approach to Learning Boolean Circuits.",
+     "conference":{
+        "name":"Applied Category Theory 2020",
+        "location":"MIT, Boston, USA",
+        "url":"https://act2020.mit.edu/",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"http://catgrad.com/p/reverse-derivative-ascent/paper.pdf"
+  },
+  {
+     "year":2020,
+     "id":"GSZ20",
+     "authors":[
+        "Tao Gu",
+        "Alexandra Silva",
+        "Fabio Zanasi"
+     ],
+     "title":"Hennessy-Milner Results for Probabilistic PDL.",
+     "conference":{
+        "name":"36th International Conference on Mathematical Foundations of Programming Semantics (MFPS)",
+        "location":"Paris, France",
+        "url":"https://www.monoidal.net/paris2020/mfps/",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"files/paperMFPS20.pdf"
+  },
+  {
+     "year":2020,
+     "id":"CFVZ20",
+     "authors":[
+        "Facundo Carreiro",
+        "Alessandro Facchini",
+        "Yde Venema",
+        "Fabio Zanasi"
+     ],
+     "title":"The Power of the Weak.",
+     "journal":{
+        "name":"ACM Transactions on Computational Logic",
+        "volume":"21",
+        "pages":"15:1-15:47",
+        "url":"https://dl.acm.org/doi/abs/10.1145/3372392",
+        "note":"This is an extended version of our LICS 2013 and LICS 2014 papers (see below)."
+     },
+     "download":"files/paperTOCL20.pdf"
+  },
+  {
+     "year":2020,
+     "id":"BPSZ20",
+     "authors":[
+        "Filippo Bonchi",
+        "Robin Piedeleu",
+        "Pawel Sobocinski",
+        "Fabio Zanasi"
+     ],
+     "title":"Contextual Equivalence for Signal Flow Graphs.",
+     "conference":{
+        "name":"23rd International Conference on Foundations of Software Science and Computation Structures (FoSSaCS)",
+        "location":"Dublin, Ireland",
+        "url":"https://www.etaps.org/2019/fossacs/",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"files/paperFOSSACS20a.pdf"
+  },
+  {
+     "year":2020,
+     "id":"KBSWZ20",
+     "authors":[
+        "Tobias Kappe",
+        "Paul Brunet",
+        "Alexandra Silva",
+        "Jana Wagemaker",
+        "Fabio Zanasi"
+     ],
+     "title":"Concurrent Kleene algebra with observations: From hypotheses to completeness.",
+     "conference":{
+        "name":"23rd International Conference on Foundations of Software Science and Computation Structures (FoSSaCS)",
+        "location":"Dublin, Ireland",
+        "url":"https://www.etaps.org/2019/fossacs/",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"files/paperFOSSACS20b.pdf"
+  },
+  {
+     "year":2019,
+     "id":"BPSZ19b",
+     "authors":[
+        "Filippo Bonchi",
+        "Robin Piedeleu",
+        "Pawel Sobocinski",
+        "Fabio Zanasi"
+     ],
+     "title":"Bialgebraic Semantics for String Diagrams.",
+     "conference":{
+        "name":"30th International Conference on Concurrency Theory (CONCUR)",
+        "location":"Amsterdam, The Netherlands",
+        "url":"https://event.cwi.nl/concur2019/",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"files/paperSOS19.pdf",
+     "abstract":"<p>Probabilistic logic programming is increasingly important in artificial intelligence and related fields as a formalism to reason about uncertainty. It generalises logic programming with the possibility of annotating clauses with probabilities. This paper proposes a coalgebraic perspective on probabilistic logic programming. Programs are modelled as coalgebras for a certain functor F, and two semantics are given in terms of cofree coalgebras. First, the cofree F-coalgebra yields a semantics in terms of derivation trees. Second, by embedding F into another type G, as cofree G-coalgebra we obtain a `possible worlds' interpretation of programs, from which one may recover the usual distribution semantics of probabilistic logic programming.< /p>"
+  },
+  {
+     "year":2019,
+     "id":"KBRSWZ19",
+     "authors":[
+        "Tobias Kappe",
+        "Paul Brunet",
+        "Jurriaan Rot",
+        "Alexandra Silva",
+        "Jana Wagemaker",
+        "Fabio Zanasi"
+     ],
+     "title":"Kleene Algebra with Observations.",
+     "conference":{
+        "name":"30th International Conference on Concurrency Theory (CONCUR)",
+        "location":"Amsterdam, The Netherlands",
+        "url":"https://event.cwi.nl/concur2019/",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"https://drops.dagstuhl.de/opus/volltexte/2019/10943/pdf/LIPIcs-CONCUR-2019-41.pdf"
+  },
+  {
+     "year":2019,
+     "id":"GZ19",
+     "authors":[
+        "Tao Gu",
+        "Fabio Zanasi"
+     ],
+     "title":"A Coalgebraic Perspective on Probabilistic Logic Programming.",
+     "conference":{
+        "name":"8th Conference on Algebra and Coalgebra in Computer Science (CALCO)",
+        "location":"London, United Kingdom",
+        "url":"https://www.coalg.org/calco-mfps-2019/",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"files/paperCALCO19a.pdf",
+     "abstract":"<p>Probabilistic logic programming is increasingly important in artificial intelligence and related fields as a formalism to reason about uncertainty. It generalises logic programming with the possibility of annotating clauses with probabilities. This paper proposes a coalgebraic perspective on probabilistic logic programming. Programs are modelled as coalgebras for a certain functor F, and two semantics are given in terms of cofree coalgebras. First, the cofree F-coalgebra yields a semantics in terms of derivation trees. Second, by embedding F into another type G, as cofree G-coalgebra we obtain a `possible worlds' interpretation of programs, from which one may recover the usual distribution semantics of probabilistic logic programming.< /p>"
+  },
+  {
+     "year":2019,
+     "id":"BWZ19",
+     "authors":[
+        "Pawel Sobocinski",
+        "Paul Wilson",
+        "Fabio Zanasi"
+     ],
+     "title":"CARTOGRAPHER: a Tool for String Diagrammatic Reasoning.",
+     "conference":{
+        "name":"8th Conference on Algebra and Coalgebra in Computer Science (CALCO)",
+        "location":"London, United Kingdom",
+        "url":"https://www.coalg.org/calco-mfps-2019/",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"files/paperCALCO19b.pdf",
+     "abstract":"<p>We introduce cartographer, a tool for editing and rewriting string diagrams of symmetric monoidal categories. Our approach is principled: the layout exploits the isomorphism between string diagrams and monogamous cospans of hypergraphs; the implementation of rewriting is based on the soundness and completeness of convex double-pushout rewriting for string diagram rewriting.< /p>"
+  },
+  {
+     "year":2019,
+     "id":"BPSZ19",
+     "authors":[
+        "Filippo Bonchi",
+        "Robin Piedeleu",
+        "Pawel Sobocinski",
+        "Fabio Zanasi"
+     ],
+     "title":"Graphical Affine Algebra.",
+     "conference":{
+        "name":"Thirty-Fourth Annual ACM/IEEE Symposium on Logic in Computer Science (LICS)",
+        "location":"Vancouver, Canada",
+        "url":"https://lics.siglog.org/lics19/",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"files/paperLICS19.pdf",
+     "abstract":"<p>Graphical linear algebra is a diagrammatic language allowing to reason compositionally about different types of linear computing devices. In this paper, we extend this formalism with a connector for affine behaviour. The extension, which we call graphical affine algebra, is simple but remarkably powerful: it can model systems with richer patterns of behaviour such as mutual exclusion---with modules over the natural numbers as semantic domain---or non-passiv electrical components---when considering modules over a certain field. Our main technical contribution is a complete axiomatisation for graphical affine algebra over these two interpretations. We also show, as case studies, how graphical affine algebra captures electrical circuits and the calculus of stateless connectors---a coordination language for distributed systems.< /p>"
+  },
+  {
+     "year":2019,
+     "id":"JZ19",
+     "authors":[
+        "Bart Jacobs",
+        "Fabio Zanasi"
+     ],
+     "title":"The Logical Essentials of Bayesian Reasoning.",
+     "bookchapter":{
+        "name":"Foundations of Probabilistic Programming",
+        "editors":"Gilles Barthe, Joost-Pieter Katoen, and Alexandra Silva",
+        "publisher":"Cambridge University Press",
+        "url":"https://www.cambridge.org/"
+     },
+     "download":"files/paperBook19.pdf",
+     "abstract":"<p>This chapter offers an accessible introduction to the channel-based approach to Bayesian probability theory. This framework rests on algebraic and logical foundations, inspired by the methodologies of programming language semantics. It offers a uniform, structured and expressive language for describing Bayesian phenomena in terms of familiar programming concepts, like channel, predicate transformation and state transformation. The introduction also covers inference in Bayesian networks, which will be modelled by a suitable calculus of string diagrams.< /p>"
+  },
+  {
+     "year":2019,
+     "id":"JKZ19",
+     "authors":[
+        "Bart Jacobs",
+        "Aleks Kissinger",
+        "Fabio Zanasi"
+     ],
+     "title":"Causal Inference by String Diagram Surgery.",
+     "conference":{
+        "name":"22nd International Conference on Foundations of Software Science and Computation Structures (FoSSaCS)",
+        "location":"Prague, Czech Republic",
+        "url":"https://www.etaps.org/2019/fossacs",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"files/paperFossacs19.pdf",
+     "abstract":"<p>Extracting causal relationships from observed correlations is a growing area in probabilistic reasoning, originating with the seminal work of Pearl and others from the early 1990s. This paper develops a new, categorically oriented view based on a clear distinction between syntax (string diagrams) and semantics (stochastic matrices), connected via interpretations as structure-preserving functors. A key notion in the identification of causal effects is that of an intervention, whereby a variable is forcefully set to a particular value independent of any prior propensities. We represent the effect of such an intervention as an endofunctor which performs ‘string diagram surgery’ within the syntactic category of string diagrams. This diagram surgery in turn yields a new, interventional distribution via the interpretation functor. While in general there is no way to compute interventional distributions purely from observed data, we show that this is possible in certain special cases using a calculational tool called comb disintegration. We demonstrate the use of this technique on a well-known toy example, where we predict the causal effect of smoking on cancer in the presence of a confounding common cause. After developing this specific example, we show this technique provides simple sufficient conditions for computing interventions which apply to a wide variety of situations considered in the causal inference literature.< /p>"
+  },
+  {
+     "year":2019,
+     "id":"BHPSZ19",
+     "authors":[
+        "Filippo Bonchi",
+        "Josh Holland",
+        "Robin Piedeleu",
+        "Pawel Sobocinski",
+        "Fabio Zanasi"
+     ],
+     "title":"Diagrammatic Algebra: From Linear to Concurrent Systems.",
+     "conference":{
+        "name":"46th ACM SIGPLAN Symposium on Principles of Programming Languages (POPL)",
+        "location":"Lisbon, Portugal",
+        "url":"https://popl19.sigplan.org/home",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"files/paperPOPL19.pdf",
+     "abstract":"<p>We introduce the resource calculus, a string diagrammatic language for concurrent systems. Significantly, it uses the same syntax and operational semantics as the signal flow calculus — an algebraic formalism for signal flow graphs, which is a combinatorial model of computation of interest in control theory. Indeed, our approach stems from the simple but fruitful realisation that, by replacing real numbers (modelling signals) with natural numbers (modelling resources) in the operational semantics, concurrent behaviour patterns emerge. The resource calculus is canonical: we equip it and its stateful extension with equational theories that characterise the underlying space of definable behaviours—a convex algebraic universe of additive relations— via isomorphisms of categories. Finally, we demonstrate that our calculus is sufficiently expressive to capture behaviour definable by classical Petri nets.< /p>"
+  },
+  {
+     "year":2019,
+     "id":"KBLSZ19",
+     "authors":[
+        "Tobias Kappe",
+        "Paul Brunet",
+        "Bas Luttik",
+        "Alexandra Silva",
+        "Fabio Zanasi"
+     ],
+     "title":"On Series-Parallel Pomset Languages: Rationality, Context-Freeness and Automata.",
+     "journal":{
+        "name":"Journal of Logical and Algebraic Methods in Programming",
+        "volume":"103",
+        "pages":"130-153",
+        "url":"https://www.sciencedirect.com/journal/journal-of-logical-and-algebraic-methods-in-programming",
+        "note":"This is an extended version of our CONCUR 2017 paper (see below)."
+     },
+     "download":"files/paperJLAMP19.pdf",
+     "abstract":"<p>Concurrent Kleene Algebra (CKA) is a formalism to study programs exhibiting concurrent behaviour. As with previous Kleene Algebra extensions, developing a correspondence between denotational and operational perspectives is important, for both foundations and applications. This paper takes an important step towards this, by precisely relating bi-Kleene Algebra (BKA), a relaxed version of CKA, to a novel type of automata called pomset automata. We show that pomset automata can faithfully represent the BKA-semantics of series-parallel rational expressions, and that a (structurally restricted) class of pomset automata can be translated back to these expressions. Furthermore, we characterise the behavior of general pomset automata in terms of context-free pomset grammars, thus yielding strong undecidability results.< /p>"
+  },
+  {
+     "year":2018,
+     "id":"FZ18",
+     "authors":[
+        "Brendan Fong",
+        "Fabio Zanasi"
+     ],
+     "title":" Universal Constructions for (Co)Relations: categories, monoidal categories, and props.",
+     "journal":{
+        "name":"Logical Methods in Computer Science",
+        "volume":"14",
+        "issue":"3",
+        "pages":"1-25",
+        "url":"https://lmcs.episciences.org/",
+        "note":"This is an extended version of our CALCO 2017 paper (see below)."
+     },
+     "download":"files/paperLMCS18.pdf",
+     "abstract":"<p>Calculi of string diagrams are increasingly used to present the syntax and algebraic structure of various families of circuits, including signal flow graphs, electrical circuits and quantum processes. In many such approaches, the semantic interpretation for diagrams is given in terms of relations or corelations (generalised equivalence relations) of some kind. In this paper we show how semantic categories of both relations and corelations can be characterised as colimits of simpler categories. This modular perspective is important as it simplifies the task of giving a complete axiomatisation for semantic equivalence of string diagrams. Moreover, our general result unifies various theorems that are independently found in literature and are relevant for program semantics, quantum computation and control theory.< /p>"
+  },
+  {
+     "year":2018,
+     "id":"BGKSZ18",
+     "authors":[
+        "Filippo Bonchi",
+        "Fabio Gadducci",
+        "Aleks Kissinger",
+        "Pawel Sobocinski",
+        "Fabio Zanasi"
+     ],
+     "title":" Rewriting with Frobenius.",
+     "conference":{
+        "name":"Thirty-Third Annual ACM/IEEE Symposium on Logic in Computer Science (LICS)",
+        "location":"Oxford, United Kingdom",
+        "url":"http://lics.rwth-aachen.de/lics18/",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"files/paperLICS18.pdf",
+     "abstract":"<p>Symmetric monoidal categories have become ubiquitous as a formal environment for the analysis of compound systems in a compositional, resource-sensitive manner using the graphical syntax of string diagrams. Recently, reasoning with string diagrams has been implemented concretely via double-pushout (DPO) hypergraph rewriting. The hypergraph representation has the twin advantages of being convenient for mechanisation and of completely absorbing the structural laws of symmetric monoidal categories, leaving just the domain-specific equations explicit in the rewriting system. In many applications across different disciplines (linguistics, concurrency, quantum computation, control theory, ...) the structural component appears to be richer than just the symmetric monoidal structure, as it includes one or more Frobenius algebras. In this work we develop a DPO rewriting formalism which is able to absorb multiple Frobenius structures, thus sensibly simplifying diagrammatic reasoning in the aforementioned applications. As a proof of concept, we use our formalism to describe an algorithm which computes the reduced form of a diagram of the theory of interacting bialgebras using a simple rewrite strategy.< /p>"
+  },
+  {
+     "year":2018,
+     "id":"KBSZ18",
+     "authors":[
+        "Tobias Kappe",
+        "Paul Brunet",
+        "Alexandra Silva",
+        "Fabio Zanasi"
+     ],
+     "title":"Concurrent Kleene Algebra: Free Model and Completeness.",
+     "conference":{
+        "name":"27th European Symposium on Programming, ESOP 2018",
+        "location":"Thessaloniki, Greece",
+        "url":"https://www.etaps.org/index.php/2018/esop",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"files/paperESOP18.pdf",
+     "abstract":"<p>Concurrent Kleene Algebra (CKA) was introduced by Hoare, Moeller, Struth and Wehrman in 2009 as a framework to reason about concurrent programs. We prove that the axioms for CKA with bounded parallelism are complete for the semantics proposed in the original paper; consequently, these semantics are the free model for this fragment. This result settles a conjecture of Hoare and collaborators. Moreover, the techniques developed along the way are reusable; in particular, they allow us to establish pomset automata as an operational model for CKA.< /p>"
+  },
+  {
+     "year":2018,
+     "id":"BSZ18",
+     "authors":[
+        "Filippo Bonchi",
+        "Pawel Sobocinski",
+        "Fabio Zanasi"
+     ],
+     "title":"Deconstructing Lawvere with Distributive Laws.",
+     "journal":{
+        "name":"Journal of Logical and Algebraic Methods in Programming.",
+        "volume":"",
+        "pages":"",
+        "url":"https://www.journals.elsevier.com/journal-of-logical-and-algebraic-methods-in-programming/",
+        "note":"This is an extended version of our CMCS 2016 paper (see below)."
+     },
+     "download":"files/paperJLAMP18.pdf",
+     "abstract":"<p>PROs, PROPs and Lawvere categories are related notions adapted to the study of algebraic structures borne by an object in a category: PROs are monoidal, PROPs are symmetric monoidal and Lawvere categories are cartesian. This paper connects the three notions using Lack’s technique for composing PRO(P)s via distributive laws. We show that Lawvere categories can be seen as the composite PROP CCm ; T , where T expresses the algebraic structure in linear form and CCm express the ability of copying and discarding them. In turn the PROP T can be decomposed in terms of PROs as P ; S where P expresses the ability of permuting variables and S is the PRO encoding the syntactic structure without permutations.< /p>"
+  },
+  {
+     "year":2017,
+     "id":"Z17",
+     "authors":[
+        "Fabio Zanasi"
+     ],
+     "title":"Rewriting in Free Hypegraph Categories.",
+     "conference":{
+        "name":"Graphs as Models, GAM 2017 (Workshop of ETAPS)",
+        "location":"Uppsala, Sweden",
+        "url":"http://www.dcs.gla.ac.uk/gam2017/",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"files/paperGam17.pdf",
+     "bibtex":"",
+     "abstract":"<p>This paper studies rewriting for equational theories in the context of symmetric monoidal categories where there is a separable Frobenius monoid on each object. These categories, also called hyper- graph categories, have become increasingly relevant in recent years: Frobenius structures appeared in cross-disciplinary applications, including the study of quantum processes, dynamical systems and natural language processing. In this work we give a combinatorial characterisation of arrows of a free hypergraph category as cospans of labelled hypergraphs and establish a precise correspondence between rewriting modulo Frobenius structure on the one hand and double-pushout rewriting of hy- pergraphs on the other. This interpretation allows to use results on hypergraphs to ensure decidability of confluence for rewriting in a free hypergraph category. Our results generalise previous approaches where only categories generated by a single object (props) were considered.</p>"
+  },
+  {
+     "year":2017,
+     "id":"KLBSZ17",
+     "authors":[
+        "Tobias Kappe",
+        "Paul Brunet",
+        "Bas Luttik",
+        "Alexandra Silva",
+        "Fabio Zanasi"
+     ],
+     "title":"Brzozowski Goes Concurrent --- A Kleene Theorem for Pomset Languages.",
+     "conference":{
+        "name":"28th International Conference on Concurrency Theory, CONCUR 2017",
+        "location":"Berlin, Germany",
+        "url":"http://www.concur2017.tu-berlin.de",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"files/paperConcur17.pdf",
+     "bibtex":"",
+     "abstract":"<p>Concurrent Kleene Algebra (CKA) is a mathematical formalism to study programs that exhibit concurrent behaviour. As with previous extensions of Kleene Algebra, characterizing the free model is crucial in order to develop the foundations of the theory and potential applications. For CKA, this has been an open question for a few years and this paper makes an important step towards an answer. We present a new automaton model and a Kleene-like theorem for pomset languages, which are a natural candidate for the free model. There are two substantial differences with previous work: from expressions to automata, we use Brzozowski derivatives, which enable a direct construction of the automaton; from automata to expressions, we provide a syntactic characterization of the automata that denote valid CKA behaviours.</p>"
+  },
+  {
+     "year":2017,
+     "id":"JZ17",
+     "authors":[
+        "Bart Jacobs",
+        "Fabio Zanasi"
+     ],
+     "title":"A Formal Semantics of Influence in Bayesian Reasoning.",
+     "conference":{
+        "name":"42nd International Symposium on Mathematical Foundations of Computer Science, MFCS 2017",
+        "location":"Aalborg, Denmark",
+        "url":"http://mfcs2017.cs.aau.dk/",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"files/paperMfcs17.pdf",
+     "bibtex":"",
+     "abstract":"<p>This paper proposes a formal definition of influence in Bayesian reasoning, based on the notions of state (as probability distribution), predicate, validity and conditioning. Our approach highlights how conditioning a joint entwined/entangled state with a predicate on one of its components has ‘crossover’ influence on the other components. We use the total variation metric on probability distributions to quantitatively measure such influence. These insights are applied to give a rigorous explanation of the fundamental concept of d-separation in Bayesian networks.</p>"
+  },
+  {
+     "year":2017,
+     "id":"FZ17",
+     "authors":[
+        "Brendan Fong",
+        "Fabio Zanasi"
+     ],
+     "title":"A Universal Construction for (Co)relations.",
+     "conference":{
+        "name":"7th Conference on Algebra and Coalgbera in Computer Science, CALCO 2017",
+        "location":"Ljubljana, Slovenia",
+        "url":"http://coalg.org/mfps-calco2017/",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"files/paperCalco17.pdf",
+     "bibtex":"",
+     "abstract":"<p>Calculi of string diagrams are increasingly used to present the syntax and algebraic structure of various families of circuits, including signal flow graphs, electrical circuits and quantum processes. In many such approaches, the semantic interpretation for diagrams is given in terms of relations or corelations (generalised equivalence relations) of some kind. In this paper we show how semantic categories of both relations and corelations can be characterised as colimits of simpler categories. This modular perspective is important as it simplifies the task of giving a complete axiomatisation for semantic equivalence of string diagrams. Moreover, our general result unifies various theorems that are independently found in literature, including the cases of linear corelations (relevant for the semantics of electrical circuits), of partial equivalence relations and of linear subspaces (semantics of signal flow graphs and of the phase-free ZX calculus).</p>"
+  },
+  {
+     "year":2017,
+     "id":"BGKSZ17",
+     "authors":[
+        "Filippo Bonchi",
+        "Fabio Gadducci",
+        "Aleks Kissinger",
+        "Pawel Sobocinski",
+        "Fabio Zanasi"
+     ],
+     "title":"Confluence of Graph Rewriting with Interfaces.",
+     "conference":{
+        "name":"29nd European Symposium on Programming Languages, ESOP 2017",
+        "location":"Uppsala, Sweden",
+        "url":"http://www.etaps.org/index.php/2017/esop",
+        "series":"",
+        "volume":"",
+        "pages":""
+     },
+     "download":"files/paperEsop17.pdf",
+     "bibtex":"files/paperEsop17.bib",
+     "abstract":"<p>For terminating double-pushout (DPO) graph rewriting systems, Plump showed that confluence is in general undecidable. We show that confluence is decidable for an extension of DPO rewriting to graphs with interfaces. This variant has become increasingly important in recent years, due to it being closely related to rewriting of string diagrams. We exploit this connection and show that our result extends, under mild conditions, to decidability of confluence for terminating rewriting systems of string diagrams in symmetric monoidal categories </p>"
+  },
+  {
+     "year":2016,
+     "id":"Z16",
+     "authors":[
+        "Bart Jacobs",
+        "Fabio Zanasi"
+     ],
+     "title":" A Predicate/State Transformer Semantics for Bayesian Learning.",
+     "conference":{
+        "name":"32nd Conference on the Mathematical Foundations of Programming Semantics, MFPS XXXII",
+        "location":"Pittsbourgh, United States",
+        "url":"http://conferences.au.dk/mfps-2016/",
+        "series":"LNCS",
+        "volume":"325",
+        "pages":"185-200"
+     },
+     "download":"files/paperMfps16a.pdf",
+     "bibtex":"files/JZ16.bib",
+     "abstract":"<p>This paper establishes a link between Bayesian inference (learning) and predicate and state transformer operations from programming semantics and logic. Specifically, a very general definition of backward inference is given via first applying a predicate transformer and then conditioning. Analogously, forward inference involves first conditioning and then applying a state transformer. These definitions are illustrated in many examples in discrete and continuous probability theory and also in quantum theory. </p>"
+  },
+  {
+     "year":2016,
+     "id":"Z16",
+     "authors":[
+        "Fabio Zanasi"
+     ],
+     "title":" The Algebra of Partial Equivalence Relations.",
+     "conference":{
+        "name":"32nd Conference on the Mathematical Foundations of Programming Semantics, MFPS XXXII",
+        "location":"Pittsbourgh, United States",
+        "url":"http://conferences.au.dk/mfps-2016/",
+        "series":"LNCS",
+        "volume":"325",
+        "pages":"313-333"
+     },
+     "download":"files/paperMfps16b.pdf",
+     "abstract":"<p>We give a presentation by generators and equations of the PROP of partial equivalence relations. As intermediates steps, we provide analogous characterisations for the PROP of partial functions and of equivalence relations. The results are obtained modularly, by letting very simple structures interact according to PROP operations of sum, fibered sum and composition via a distributive law. </p>"
+  },
+  {
+     "year":2016,
+     "id":"BSZ16",
+     "authors":[
+        "Filippo Bonchi",
+        "Pawel Sobocinski",
+        "Fabio Zanasi"
+     ],
+     "title":" Lawvere Categories as Composed PROPs.",
+     "conference":{
+        "name":"13th International Workshop on Coalgebraic Methods in Computer Science (CMCS)",
+        "location":"Eindhoven, The Netherlands",
+        "url":"http://www.coalg.org/cmcs16/",
+        "series":"LNCS",
+        "volume":"9608",
+        "pages":"11-32"
+     },
+     "download":"files/paperCmcs16.pdf",
+     "abstract":"<p> PROPs and Lawvere categories are related notions adapted to the study of algebraic structures borne by an object in a category, but whereas PROPs are symmetric monoidal, Lawvere categories are cartesian. This paper formulates the connection between the two notions using Lack's technique for composing PROPs via distributive laws. We show Lawvere categories can be seen as resulting from a distributive law of two PROPs --- one expressing the algebraic structure in linear form and the other expressing the ability of copying and discarding variables. </p>"
+  },
+  {
+     "year":2016,
+     "id":"BGKSZ16",
+     "authors":[
+        "Filippo Bonchi",
+        "Fabio Gadducci",
+        "Aleks Kissinger",
+        "Pawel Sobocinski",
+        "Fabio Zanasi"
+     ],
+     "title":" Rewriting modulo symmetric monoidal structure.",
+     "conference":{
+        "name":"Thirty-First Annual ACM/IEEE Symposium on Logic in Computer Science (LICS)",
+        "location":"Eindhoven, The Netherlands",
+        "url":"http://lics.rwth-aachen.de/lics16/",
+        "series":"ACM",
+        "volume":"",
+        "pages":"710-719"
+     },
+     "download":"files/paperLics16.pdf",
+     "abstract":"<p> PROPs and Lawvere categories are related notions adapted to the study of algebraic structures borne by an object in a category, but whereas PROPs are symmetric monoidal, Lawvere categories are cartesian. This paper formulates the connection between the two notions using Lack's technique for composing PROPs via distributive laws. We show Lawvere categories can be seen as resulting from a distributive law of two PROPs --- one expressing the algebraic structure in linear form and the other expressing the ability of copying and discarding variables. </p>"
+  },
+  {
+     "year":2017,
+     "id":"BSZ16b",
+     "authors":[
+        "Filippo Bonchi",
+        "Pawel Sobocinski",
+        "Fabio Zanasi"
+     ],
+     "title":" The Calculus of Signal Flow Diagrams I: Linear Relations on Streams.",
+     "journal":{
+        "name":"Information and Computation",
+        "volume":"252",
+        "pages":"2-29",
+        "url":"https://www.journals.elsevier.com/information-and-computation/",
+        "note":"This is an extended version of our CONCUR 2014 paper (see below)."
+     },
+     "download":"files/paperInfComp.pdf",
+     "abstract":"<p> We introduce a graphical syntax for signal flow diagrams based on the language of symmetric monoidal categories.Using universal categorical constructions, we provide a stream semantics and a sound and complete axiomatisation. A certain class of diagrams captures the orthodox notion of signal flow graph used in control theory;we show that any diagram of our syntax can be realised, via rewriting in the equational theory, as a signal flow graph. < /p>"
+  },
+  {
+     "year":2017,
+     "id":"BSZ16c",
+     "authors":[
+        "Filippo Bonchi",
+        "Pawel Sobocinski",
+        "Fabio Zanasi"
+     ],
+     "title":" Interacting Hopf Algebras.",
+     "journal":{
+        "name":"Journal of Pure and Applied Algebra",
+        "volume":"221",
+        "pages":"144-184",
+        "url":"https://www.journals.elsevier.com/journal-of-pure-and-applied-algebra/",
+        "note":"A preliminary version of this paper appeared on ArXiv on 27/03/2014."
+     },
+     "download":"files/paperJPAAL.pdf",
+     "abstract":"<p> We introduce the theory IH of interacting Hopf algebras, parametrised over a principal ideal domain R. The axioms of IH are derived using Lack's approach to composing PROPs: they feature two Hopf algebra and two Frobenius algebra structures on four different monoid-comonoid pairs. This construction is instrumental in showing that IH is isomorphic to the PROP of linear relations (i.e. subspaces) over the field of fractions of R. </p>"
+  },
+  {
+     "year":2015,
+     "id":"Z15",
+     "authors":[
+        "Fabio Zanasi"
+     ],
+     "title":"Interacting Hopf Algebras - The Theory of Linear Systems",
+     "thesis":{
+        "institution":"École Normale Supérieure de Lyon"
+     },
+     "abstract":"<p>Scientists in diverse fields use diagrammatic formalisms to reason about various kinds of networks, or compound systems. Examples include electrical circuits, signal flow graphs, Penrose and Feynman diagrams, Bayesian networks, Petri nets, Kahn process networks, proof nets, UML specifications, amongst many others. Graphical languages provide a convenient abstraction of some underlying mathematical formalism, which gives meaning to diagrams. For instance, signal flow graphs, foundational structures in control theory, are traditionally translated into systems of linear equations. This is typical: diagrammatic languages are used as an interface for more traditional mathematics, but rarely studied per se.Recent trends in computer science analyse diagrams as first - class objects using formal methods from programming language semantics.In many such approaches, diagrams are generated as the arrows of a PROP— a special kind of monoidal category— by a two - dimensional syntax and equations.The domain of interpretation of diagrams is also formalised as a PROP and the(compositional) semantics is expressed as a functor preserving the PROP structure.The first main contribution of this thesis is the characterisation of SVk, the PROP of linear subspaces over a field k.This is an important domain of interpretation for diagrams appearing in diverse research areas, like the signal flow graphs mentioned above.We present by generators and equations the PROP IH of string diagrams whose free model is SVk.The name IH stands for interacting Hopf algebras: indeed, the equations of IH arise by distributive laws between Hopf algebras, which we obtain using Lack’ s technique for composing PROPs.The significance of the result is two - fold.On the one hand, it offers a canonical string diagrammatic syntax for linear algebra: linear maps, kernels, subspaces and the standard linear algebraic transformations are all faithfully represented in the graphical language.On the other hand, the equations of IH describe familiar algebraic structures— Hopf algebras and Frobenius algebras— which are at the heart of graphical formalisms as seemingly diverse as quantum circuits, signal flow graphs, simple electrical circuits and Petri nets.Our characterisation enlightens the provenance of these axioms and reveals their linear algebraic nature.Our second main contribution is an application of IH to the semantics of signal processing circuits.We develop a formal theory of signal flow graphs, featuring a string diagrammatic syntax for circuits, a structural operational semantics and a denotational semantics.We prove soundness and completeness of the equations of IH for denotational equivalence.Also, we study the full abstraction question: it turns out that the purely operational picture is too concrete— two graphs that are denotationally equal may exhibit different operational behaviour.We classify the ways in which this can occur and show that any graph can be realised— rewritten, using the equations of IH, into an executable form where the operational behaviour and the denotation coincide.This realisability theorem— which is the culmination of our developments— suggests a reflection about the role of causality in the semantics of signal flow graphs and, more generally, of computing devices. < /p>",
+     "download":"files/thesis2015.pdf"
+  },
+  {
+     "year":2015,
+     "id":"BZ15",
+     "authors":[
+        "Filippo Bonchi",
+        "Fabio Zanasi"
+     ],
+     "title":" Bialgebraic Semantics for Logic Programming,.",
+     "journal":{
+        "name":"Logical Methods in Computer Science",
+        "volume":"11",
+        "issue":"2",
+        "pages":"1-47",
+        "url":"https://lmcs.episciences.org/",
+        "note":"This is an extended version of our CALCO 2013 paper (see below)."
+     },
+     "download":"files/paperLMCS15.pdf",
+     "abstract":"<p> Bialgebrae provide an abstract framework encompassing the semantics of different kinds of computational models. In this paper we propose a bialgebraic approach to the semantics of logic programming. Our methodology is to study logic programs as reactive systems and exploit abstract techniques developed in that setting. First we use saturation to model the operational semantics of logic programs as coalgebrae on presheaves. Then, we make explicit the underlying algebraic structure by using bialgebrae on presheaves. The resulting semantics turns out to be compositional with respect to conjunction and term substitution. Also, it encodes a parallel model of computation, whose soundness is guaranteed by a built-in notion of synchronisation between different threads. </p>"
+  },
+  {
+     "year":2015,
+     "id":"BMSZ15",
+     "authors":[
+        "Filippo Bonchi",
+        "Stefan Milius",
+        "Alexandra Silva",
+        "Fabio Zanasi"
+     ],
+     "title":"Killing Epsilons with a Dagger: a Coalgebraic Study of Systems with Algebraic Label Structure",
+     "journal":{
+        "name":"Theoretical Computer Science",
+        "volume":"604",
+        "pages":"102-126",
+        "url":"https://www.journals.elsevier.com/theoretical-computer-science/",
+        "note":"This is an extended version of our CMCS 2014 paper (see below)."
+     },
+     "download":"files/paperTCS.pdf",
+     "abstract":"<p>We propose an abstract framework for modelling state-based systems with internal behaviour as e.g. given by silent or ϵ-transitions. Our approach employs monads with a parametrized fixpoint operator † to give a semantics to those systems and implement a sound procedure of abstraction of the internal transitions, whose labels are seen as the unit of a free monoid. More broadly, our approach extends the standard coalgebraic framework for state-based systems by taking into account the algebraic structure of the labels of their transitions. This allows to consider a wide range of other examples, including Mazurkiewicz traces for concurrent systems and non-deterministic transducers.</p>"
+  },
+  {
+     "year":2015,
+     "id":"BSZ15",
+     "authors":[
+        "Filippo Bonchi",
+        "Pawel Sobocinski",
+        "Fabio Zanasi"
+     ],
+     "title":"Full Abstraction for Signal Flow Graphs.",
+     "conference":{
+        "name":"POPL 2015: 42nd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
+        "location":"Mumbai, India",
+        "url":"http://popl.mpi-sws.org/2015"
+     },
+     "download":"files/paperPopl15.pdf",
+     "abstract":"<p>Network theory uses the string diagrammatic language of monoidal categories to study graphical structures formally, eschewing specialised into intermediate formalisms. Recently, there has been a concerted research focus on developing a network theoretic approach to signal flow graphs, which are classical structures in control theory, signal processing and a cornerstone in the study of feedback. In this approach, signal flow graphs are given a relational denotational semantics in terms of formal power series. Thus far, the operational behaviour of such signal flow graphs has only been discussed at an intuitive level. In this paper we equip them with a structural operational semantics. As is typically the case, the purely operational picture is too concrete – two graphs that are denotationally equal may exhibit different operational behaviour. We classify the ways in which this can occur and show that any graph can be realised – rewritten, using the graphical theory, into an executable form where the operational behavior and the denotation coincides.</p>"
+  },
+  {
+     "year":2014,
+     "id":"BSZ14b",
+     "authors":[
+        "Filippo Bonchi",
+        "Pawel Sobocinski",
+        "Fabio Zanasi"
+     ],
+     "title":" A Categorical Semantics of Signal Flow Graphs.",
+     "conference":{
+        "name":"25th Conference on Concurrency Theory, CONCUR 2014",
+        "location":"Rome, Italy",
+        "url":"http://concur2014.org/",
+        "series":"LNCS",
+        "volume":"8704",
+        "pages":"435-450",
+        "note":"A journal version of this paper appeared in <i>Information and Computation</i> (see above)"
+     },
+     "download":"files/paperConcur14.pdf",
+     "abstract":"<p>We introduce IH, a sound and complete graphical theory of vector subspaces over the field of polynomial fractions, with relational composition. The theory is constructed in modular fashion, using Lack's approach to composing PROPs with distributive laws. We then view string diagrams of IH as generalised stream circuits by using a formal Laurent series semantics. We characterize the subtheory where circuits adhere to the classical notion of signal flow graphs, and illustrate the use of the graphical calculus on several examples. </p>"
+  },
+  {
+     "year":2014,
+     "id":"CFVZ14",
+     "authors":[
+        "Facundo Carreiro",
+        "Alessandro Facchini",
+        "Yde Venema",
+        "Fabio Zanasi"
+     ],
+     "title":"Weak MSO: automata and expressiveness modulo bisimilarity.",
+     "conference":{
+        "name":"Twenty-Ninth Annual ACM/IEEE Symposium on Logic in Computer Science (LICS)",
+        "location":"Vienna, Austria",
+        "url":"http://lics.rwth-aachen.de/csl-lics14/index.html",
+        "series":"ACM",
+        "pages":"27:1 - 27:27"
+     },
+     "download":"files/paperLics14.pdf",
+     "abstract":"<p>We prove that the bisimulation-invariant fragment of weak monadic second-order logic (WMSO) is equivalent to the fragment of the modal μ-calculus where the application of the least fixpoint operator μp.φ is restricted to formulas φ that are continuous in p. Our proof is automata-theoretic in nature; in particular, we introduce a class of automata characterizing the expressive power of WMSO over tree models of arbitrary branching degree. The transition map of these automata is defined in terms of a logic FOE1∞ that is the extension of first-order logic with a generalized quantifier ∃∞, where ∃∞x.φ means that there are infinitely many objects satisfying φ. An important part of our work consists of a model-theoretic analysis of FOE1∞. </p>"
+  },
+  {
+     "year":2014,
+     "id":"CFVZ14",
+     "authors":[
+        "Filippo Bonchi",
+        "Pawel Sobocinski",
+        "Fabio Zanasi"
+     ],
+     "title":"Interacting Bialgebras Are Frobenius.",
+     "conference":{
+        "name":"Twenty-Ninth Annual ACM/IEEE Symposium on Logic in Computer Science (LICS)",
+        "location":"Grenoble, France",
+        "url":"http://www.etaps.org/index.php/2014/fossacs",
+        "series":"LNCS",
+        "volume":"8412",
+        "pages":"351-365"
+     },
+     "download":"files/paperFossacs14.pdf",
+     "abstract":"<p>Bialgebras and Frobenius algebras are different ways in which monoids and comonoids interact as part of the same theory. Such theories feature in many fields: e.g. quantum computing, compositional semantics of concurrency, network algebra and component-based programming. In this paper we study an important sub-theory of Coecke and Duncan’s ZX-calculus, related to strongly-complementary observables, where two Frobenius algebras interact. We characterize its free model as a category of ℤ2-vector subspaces. Moreover, we use the framework of PROPs to exhibit the modular structure of its algebra via a universal construction involving span and cospan categories of ℤ2-matrices and distributive laws between PROPs. Our approach demonstrates that the Frobenius structures result from the interaction of bialgebras. </p>"
+  },
+  {
+     "year":2014,
+     "id":"BMSZ14",
+     "authors":[
+        "Filippo Bonchi",
+        "Stefan Milius",
+        "Alexandra Silva",
+        "Fabio Zanasi"
+     ],
+     "title":"How to Kill Epsilons with a Dagger -- A Coalgebraic Take on Systems with Algebraic Label Structure",
+     "conference":{
+        "name":"12th International Workshop on Coalgebraic Methods in Computer Science",
+        "location":"Grenoble, France",
+        "url":"http://www.coalg.org/cmcs14/",
+        "series":"LNCS",
+        "volume":8446,
+        "pages":"53-74",
+        "note":"A journal version of this paper appeared in <i>Theoretical Computer Science</i> (see above)"
+     },
+     "download":"http://arxiv.org/pdf/1402.4062v2.pdf",
+     "abstract":"<p>We propose an abstract framework for modeling state-based systems with internal behavior as e.g. given by silent or ǫ-transitions. Our approach employs monads with a parametrized fixpoint operator † to give a semantics to those systems and implement a sound procedure of abstraction of the internal transitions, whose labels are seen as the unit of a free monoid. More broadly, our approach extends the standard coalgebraic framework for state-based systems by taking into account the algebraic structure of the labels of their transitions. This allows to consider a wide range of other examples, including Mazurkiewicz traces for concurrent systems.</p>"
+  },
+  {
+     "year":2013,
+     "id":"BZ13",
+     "authors":[
+        "Filippo Bonchi",
+        "Fabio Zanasi"
+     ],
+     "title":"Saturated Semantics for Coalgebraic Logic Programming.",
+     "conference":{
+        "name":"Algebra and Coalgebra in Computer Science - 5th International Conference, CALCO 2013",
+        "location":"Warsaw, Poland",
+        "url":"http://www.coalg.org/calco13",
+        "series":"LNCS",
+        "volume":"8089",
+        "pages":"267-282",
+        "notes":"Best Paper Award. A journal version appeared in <i>Logical Methods in Computer Science</i> (see above)"
+     },
+     "download":"files/paperCalco13.pdf",
+     "abstract":"<p>A series of recent papers introduces a coalgebraic semantics for logic programming, where the behavior of a goal is represented by a parallel model of computation called coinductive tree. This semantics fails to be compositional, in the sense that the coalgebra formalizing such behavior does not commute with the substitutions that may apply to a goal. We suggest that this is an instance of a more general phenomenon, occurring in the setting of interactive systems (in particular, nominal process calculi), when one tries to model their semantics with coalgebrae on presheaves. In those cases, compositionality can be obtained through saturation. We apply the same approach to logic programming: the resulting semantics is compositional and enjoys an elegant formulation in terms of coalgebrae on presheaves and their right Kan extensions.</p>"
+  },
+  {
+     "year":2013,
+     "id":"FVZ13",
+     "authors":[
+        "Alessandro Facchini",
+        "Yde Venema",
+        "Fabio Zanasi"
+     ],
+     "title":"A Characterization Theorem for the Alternation-Free Fragment of the Modal µ-Calculus.",
+     "conference":{
+        "name":"28th Annual ACM/IEEE Symposium on Logic in Computer Science, LICS 2013",
+        "location":"New Orleans, United States",
+        "url":"http://lics.rwth-aachen.de/lics13/",
+        "series":"IEEE",
+        "volume":"8089",
+        "pages":"478-487"
+     },
+     "download":"files/paperLics13.pdf",
+     "abstract":"<p>We provide a characterization theorem, in the style of van Benthem and Janin-Walukiewicz, for the alternation-free fragment of the modal μ-calculus. For this purpose we introduce a variant of standard monadic second-order logic (MSO), which we call well-founded monadic second-order logic (WFMSO). When interpreted in a tree model, the second-order quantifiers of WFMSO range over subsets of conversely well-founded subtrees. The first main result of the paper states that the expressive power of WFMSO over trees exactly corresponds to that of weak MSO-automata. Using this automata-theoretic characterization, we then show that, over the class of all transition structures, the bisimulation-invariant fragment of WFMSO is the alternation-free fragment of the modal μ-calculus. As a corollary, we find that the logics WFMSO and WMSO (weak monadic second-order logic, where second-order quantification concerns finite subsets), are incomparable in expressive power.</p>"
+  },
+  {
+     "year":2012,
+     "id":"Z12",
+     "authors":[
+        "Fabio Zanasi"
+     ],
+     "title":"Expressiveness of Monadic Second-Order Logics on Infinite Trees of Arbitrary Branching Degree",
+     "thesis":{
+        "institution":"Institue for Logic, Language and Computation (ILLC), Universiteit van Amsterdam"
+     },
+     "abstract":"<p>In this thesis we study the expressive power of variants of monadic second-order logic (MSO) on infinite trees by means of automata.In particular we are interested in weak MSO and well-founded MSO, where the second-order quantifiers range respectively over finite sets and over subsets of well-founded trees. On finitely branching trees, weak and well-founded MSO have the same expressive power and are both strictly weaker than MSO.The associated class of automata(called weak MSO - automata) is a restriction of the class characterizing MSO-expressivity. We show that, on trees with arbitrary branching degree, weak MSO-automata characterize the expressive power of well-founded MSO, which turns out to be incomparable with weak MSO. Indeed, in this generalized setting, weak MSO gives an account of properties of the‘ horizontal dimension’ of trees, which cannot be described by means of MSO or well-founded MSO formulae. In analogy with the result of Janin and Walukiewicz for MSO and the modal µ-calculus, this raises the issue of which modal logic captures the bisimulation-invariant fragment of well-founded MSO and weak MSO.We show that the alternation-free fragment of the modal µ-calculus and the bisimulation-invariant fragment of well-founded MSO have the same expressive power on trees of arbitrary branching degree.We motivate the conjecture that weak MSO modulo bisimulation collapses inside MSO and well-founded MSO. < /p>",
+     "download":"files/thesis2012.pdf"
+  },
+  {
+     "year":2012,
+     "id":"Z12b",
+     "authors":[
+        "Fabio Zanasi"
+     ],
+     "unpublished":"Extended abstract presented at the IFCoLogSS Workshop, Computability in Europe (CiE 2012)",
+     "title":"On the expressive power of MSO and WMSO on trees of arbitrary degree"
+  },
+  {
+     "year":2011,
+     "id":"Z11",
+     "authors":[
+        "Fabio Zanasi"
+     ],
+     "title":"La definizione nei sistemi logici di S. Lesniewski",
+     "journal":{
+        "name":"Annali della facoltà di Lettere e Filosofia Dell'Università di Siena"
+     },
+     "download":"files/paperLesniewskiAnnali.pdf"
+  },
+  {
+     "year":2010,
+     "id":"Z10",
+     "authors":[
+        "Fabio Zanasi"
+     ],
+     "title":"La definizione nell'Ontologia di S. Lesniewski - uno studio sulle definizioni creative",
+     "thesis":{
+        "institution":"Università di Siena"
+     },
+     "download":"files/thesis2010.pdf"
+  },
+  {
+     "year":2010,
+     "id":"RZ10",
+     "authors":[
+        "Frederick V. Rickey",
+        "Fabio Zanasi"
+     ],
+     "unpublished":"Manuscript",
+     "title":"On creative definitions in Lesniewski's Ontology"
+  }
+]

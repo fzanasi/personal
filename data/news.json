@@ -1,0 +1,172 @@
+ [{
+     "date": "21 Dec 2022",
+     "note": "I am giving an invited talk at the workshop ITACA in Pisa, Italy, on category theoretic approaches to machine learning."
+ },{
+     "date": "3 Oct 2022",
+     "note": "Our papers `String diagrams for non-strict monoidal categories' and `Functorial String Diagrams for Reverse-Mode Automatic Differentiation' were accepted for presentation at CSL'23."
+ },{
+     "date": "27 Sep 2022",
+     "note": "I am giving an invited talk at the 14th International Conference on Mathematics of Program Construction (MPC) in Tbilisi, Georgia."
+ },{
+     "date": "5 Sep 2022",
+     "note": "I am attending the IFIP WG1.3 workshop in Lipari, Italy."
+ },{
+     "date": "26 June 2022",
+     "note": "Our paper `A Complete Diagrammatic Calculus for Boolean Satisfiability' was accepted for presentation at MFPS'22."
+ },{
+     "date": "10 June 2022",
+     "note": "Our paper `Categories of Differentiable Polynomial Circuits for Machine Learning' was accepted for a Keynote presentation at ACT'22."
+ },{
+     "date": "10 June 2022",
+     "note": "Our paper `String Diagrams for Layered Explanations' was accepted at ACT'22."
+ },{
+     "date": "15 April 2022",
+     "note": "Our paper `Rewriting for Monoidal Closed Categories' was accepted at FSCD'22."
+ },{
+     "date": "14 April 2022",
+     "note": "Our paper <a href='https://arxiv.org/abs/2203.06430'>Categories of Differentiable Polynomial Circuits for Machine Learning</a> was accepted at ICGT'22."
+ },{
+     "date": "5 April 2022",
+     "note": "I am presenting our paper <a href='https://arxiv.org/abs/2103.01931'>``Categorical Foundations of Gradient-Based Learning''</a> at ESOP'22 (also nomitated for EATCS Best Theory Paper award!)."
+ },{
+     "date": "31 August 2021",
+     "note": "I am giving a tutorial on string diagrams at <a href='https://www.coalg.org/calco-mfps2021/mfps'>MFPS 2021</a>."
+ },{
+     "date": "7 June 2021",
+     "note": "I am offering a fully funded four-years PhD studentship at University College London to work on Applied Category Theory. Starting date is Fall 2021, but there is some flexibility. Please get in touch if you are interested in applying."
+ },{
+     "date": "7 June 2021",
+     "note": "Our paper <a href='https://arxiv.org/abs/2105.09257'>``The Cost of Compositionality''</a> was accepted for publication at <a href='https://www.cl.cam.ac.uk/events/act2021/#:~:text=The%204th%20International%20Conference%20on,at%20MIT%2C%20Oxford%20and%20Leiden.'>ACT'21</a> and is going to be presented in Cambridge in July."
+ },{
+     "date": "29 March 2021",
+     "note": "Our paper <a href='https://arxiv.org/abs/2009.14576'>``A String Diagrammatic Axiomatisation of Finite-State Automata''</a> won the <a href='https://eatcs.org/index.php/best-etaps-paper> Best ETAPS Paper Award</a>, awarded by EATCS"
+ },{
+     "date": "29 March 2021",
+     "note": "Robin Piedeleu is presenting our paper <a href='https://arxiv.org/abs/2009.14576'>``A String Diagrammatic Axiomatisation of Finite-State Automata''</a>, at <a href='https://etaps.org/2021/fossacs'>FoSSaCS 2021</a> (Online)"
+ },{
+     "date": "9 July 2020",
+     "note": "Paul Wilson is presenting our paper <a href='http://catgrad.com/p/reverse-derivative-ascent/paper.pdf'>``Reverse Derivative Ascent: A Categorical Approach to Learning Boolean Circuits''</a>, accepted at <a href='https://act2020.mit.edu/'>Applied Category Theory 2020</a> (MIT, Boston, USA)"
+ },{
+     "date": "14 May 2020",
+     "note": "Our paper <a href='http://www.zanasi.com/fabio/files/paperMFPS20.pdf'>``Hennessy-Milner Results for Probabilistic PDL''</a> was accepted at <a href='https://www.monoidal.net/paris2020/mfps/'>MFPS'20</a> (Paris)"
+ },{
+     "date": "15 January 2020",
+     "note": "I am preseting at the meeting of the IFIP Working Group 1.3 in Massa Marittima (Italy)"
+ },{
+     "date": "20 December 2020",
+     "note": "Two of my papers were accepted for publication at Fossacs 2020 (Dublin, Ireland)"
+ },{
+     "date": "26 November 2019",
+     "note": "I am giving a one-week graduate course on string diagram rewriting at ENS Lyon/Universitè de Lyon (France)"
+ },{
+     "date": "17 September 2019",
+     "note": "I am participating in the Statebox Summit in the wood near Berlin (Germany)"
+ },{
+     "date": "19 June 2019",
+     "note": "Our paper <a href='http://www.zanasi.com/fabio/files/paperSOS19.pdf'>``Bialgebraic Semantics for String Diagrams''</a> was accepted at <a href='https://event.cwi.nl/concur2019/'>CONCUR'19</a> (Amsterdam)"
+ },{
+     "date": "15 May 2019",
+     "note": "Our papers <a href='http://www.zanasi.com/fabio/files/paperCALCO19a.pdf'>``A Coalgebraic Perspective on Probabilistic Logic Programming''</a> and <a href='http://www.zanasi.com/fabio/files/paperCALCO19b.pdf'>``CATROGRAPHER: a Tool for String Diagrammatic Reasoning''</a> were accepted at <a href='https://www.coalg.org/calco-mfps-2019/'>CALCO'19</a> (London)"
+ },{
+     "date": "25 Gen 2019",
+     "note": "Our paper <a href='http://www.zanasi.com/fabio/files/paperLICS19.pdf'>``Graphical Affine Algebra''</a> was accepted at <a href='https://lics.siglog.org/lics19/'>LICS'19</a> (Vancouver)"
+ },{
+     "date": "25 Gen 2019",
+     "note": "Our paper <a href='https://arxiv.org/abs/1811.08338'>``Causal Inference by String Diagram Surgery''</a> was accepted at <a href='https://www.etaps.org/2019/fossacs'>FoSSaCS'19</a> (Prague)"
+ },{
+     "date": "18 Gen 2019",
+     "note": "Robin Piedeleu is presenting our paper <a href='http://www.zanasi.com/fabio/files/paperPOPL19.pdf'>``Diagrammatic Algebra: from Linear to Current Systems''</a> at <a href='https://popl19.hotcrp.com/'>POPL'19</a> (Lisbon)"
+ },{
+     "date": "26 Nov 2018",
+     "note": "Participating in the Shonan Meeting on `Diagrammatic Methods for Linear and Nonlinear Systems' (Shonan Institute of Technology, Japan)"
+ },{
+     "date": "15 Nov 2018",
+     "note": "Welcome to Robin Piedeleu, new post-doc hired on my EPSRC Project `Enhanced Formal Reasoning for Algebraic Network Theory'"
+ },{
+     "date": "1 Oct 2018",
+     "note": "Welcome to Tao Gu, my new PhD student!"
+ },{
+     "date": "21 Set 2018",
+     "note": "Participating in <a href='http://events.cs.bham.ac.uk/syco/1/'>SYCO</a>."
+ },{
+     "date": "23 Aug 2018",
+     "note": "Visiting Ichiro Hasuo and his ERATO project team in Tokyo, Japan."
+ },{
+     "date": "11 Jul 2018",
+     "note": "Attending LiCS in Oxford, United Kingdom."
+ },{
+     "date": "8 Jul 2018",
+     "note": "Organising the workshop ``Coalgebra, Now'' at FLoC in Oxford, United Kingdom."
+ },{
+     "date": "30 Apr 2018",
+     "note": "Speaking at ``Applied Category Theory'' in Leiden, The Netherlands."
+ },{
+     "date": "14 Apr 2018",
+     "note": "Participating at ETAPS 2018 in Thessaloniki, Greece."
+ },{
+     "date": "16 Mar 2018",
+     "note": "Organising a workshop on ``Compositional Methods for Compound Systems and Network Diagrams'' at the Bellairs Research Institute in Barbados."
+ },{
+     "date": "1 Mar 2018",
+     "note": "Visiting Alexander Kurz and giving a talk at the University of Leicester, United Kingdom."
+ },{
+     "date": "16 Feb 2018",
+     "note": "Visiting Filippo Bonchi and Fabio Gadducci at the University of Pisa, Italy."
+ },{
+     "date": "15 Nov 2017",
+     "note": "I'm advertising a fully-funded PhD position at University College London, check <a href='http://www.zanasi.com/fabio/#/phdposition.html'>here</a>."
+ },{
+     "date": "6 Nov 2017",
+     "note": "I am visiting Alessio Benavoli and Alessandro Facchini for one week at the Dalle Molle Institute for Artifical Intelligence in Lugano, Switzerland."
+ },{
+     "date": "9 Sep 2017",
+     "note": "I am giving a talk entitled ``Towards Structural Operational Semantics for Network Diagrams'' at <a href='http://string2017.cs.ru.nl/'> STRING'17</a> in Oxford."
+ },{
+     "date": "4 Sep 2017",
+     "note": "I am receiving the visit of Filippo Bonchi at University College London for one week."
+ },{
+     "date": "20 July 2017",
+     "note": "I am visiting Filippo Bonchi and Fabio Gadducci for one week and giving a talk at the University of Pisa on Monday, July 24th."
+ },{
+     "date": "18 June 2017",
+     "note": "I am in Iceland for organising the <a href='http://lics.rwth-aachen.de/lics17/lmw.html'>2nd Logic Mentoring Workshop</a>."
+ },{
+     "date": "12 June 2017",
+     "note": "Best Presentation Award for my illustration of the paper ``A Universal Construction for (Co)relations'' at <a href='http://coalg.org/mfps-calco2017/'>CALCO'17</a> in Ljubljana, Slovenia."
+ },{
+     "date": "31 May 2017",
+     "note": "I am visiting <a href='http://www.cs.bham.ac.uk/~drg/'>Dan Ghica</a> for three days and giving a talk at the University of Birmingham on Friday, June 1st."
+ },{
+     "date": "8 May 2017",
+     "note": "For the whole week you will find me at Radboud University Nijmegen, visiting Bart Jacobs."
+ },{
+     "date": "26 Apr 2017",
+     "note": "I am presenting the paper ``Confluence for Graph Rewriting with Interfaces'' at <a href='http://www.etaps.org/index.php/2017/esop'>ESOP 2017</a>."
+ },{
+     "date": "23 Apr 2017",
+     "note": "I am giving an invited talk entitled ``New Foundations for String Diagram Rewriting'' at <a href='http://www.dcs.gla.ac.uk/gam2017/'>GAM</a>, a workshop of ETAPS 2017."
+ },{
+     "date": "13 Mar 2017",
+     "note": "Consider submitting a paper to <a href='http://www.lsv.ens-cachan.fr/~bollig/yr-concur2017/'>YR-CONCUR</a>, a workshop of CONCUR'17. Deadline for 4-pages abstracts is June 25."
+ },{
+     "date": "12 Mar 2017",
+     "note": "I am participating in the  <a href='http://cs.mcgill.ca/~prakash/Bellairs/17/bellairs17.html'>Bellairs Workshop on Probabilistic Programming Languages</a> in Barbados."
+ },{
+     "date": "24 Feb 2017",
+     "note": "Scholarship applications for the <a href='http://lics.rwth-aachen.de/lics17/lmw.html'>2nd Logic Mentoring Workshop</a> are now open! There is time until March 31. This is a satellite event of <a href='http://lics.rwth-aachen.de/lics17/'>LICS 2017</a>."
+ },{
+     "date": "17 Feb 2017",
+     "note": "I am giving a talk entitled ``Formal Semantics for Bayesian Reasoning'' at the <a href='https://www.cs.ox.ac.uk/seminars/1716.html'>OASIS seminar</a>, University of Oxford."
+ },{
+     "date": "6 Dec 2016",
+     "note": "Consider submitting a paper to <a href='http://coalg.org/calco17/'>CALCO 2017</a>."
+ },{
+     "date": "28 Nov 2016",
+     "note": "I am visiting Scotland to attend the workshops <a href='https://ff32.host.cs.st-andrews.ac.uk/lpti16/'>``Coalgebraic Logic Programming''</a> (Edinburgh) and <a href='http://homepages.inf.ed.ac.uk/cheunen/clapscotland/'>``Categories, Logics and Physics''</a> (Glasgow)."
+ },{
+     "date": "1 Oct 2016",
+     "note": "I am joining the <a href='http://pplv.cs.ucl.ac.uk'>Programming principles, logic and verification group</a>, at University College London."
+ },{
+     "date": "1 Sep 2016",
+     "note": "I am joining the board of <a href='http://lmcs.episciences.org'>Logical Methods in Computer Science</a> as Executive Editor."
+ }]

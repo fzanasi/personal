@@ -1,0 +1,67 @@
+<div id="talks" class="page">
+  <div class="page-container">
+    <div class="pageheader">
+      <div class="headercontent">
+        <div class="section-container">
+          <h2 class="title">My Talks (disclaimer: this is a selection and it may not be up-to-date)
+            <small>
+              <form class="form-inline" role="search" id="pub-search">
+                <div class="form-group pull-right">
+                  <div class="input-group">
+                    <label class="sr-only" for="searchInput">Search</label>
+                    <input type="text" ng-model="search" class="form-control input-lg" id="searchInput" placeholder="Search">
+                    <span class="glyphicon glyphicon-search form-control-feedback" aria-hidden="true"></span>
+                  </div>
+                </div>
+              </form>
+            </small>
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="pagecontents">
+      <div class="section color-2" pub-grid="true">
+        <div class="section-container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="pitems">
+                <div ng-repeat="talk in talks | filter: search" class="item">
+                  <div class="pubmain">
+                    <div class="pubassets">
+                      <a ng-repeat="download in talk.download" ng-href="{{download.url}}" class="tooltips" title="{{download.text}}" target="_blank">
+                        <i class="icon-cloud-download"></i>
+                        <small ng-bind="download.text"></small>
+                        <a ng-repeat="video in talk.video" ng-href="{{video.url}}" class="tooltips" title="{{video.text}}" target="_blank">
+                          <i class="icon-camera-retro"></i>
+                          <small ng-bind="video.text"></small>
+                        </a>
+                      </a>
+                    </div>
+                    <h4 class="pubtitle" ng-bind="talk.title"></h4>
+                    <div class="pubauthor">
+                      <ul ng-if="talk.pres.length > 1">
+                        <li ng-repeat="pres in talk.pres">
+                          <span ng-bind="pres.date"></span>,
+                          <a ng-if="pres.url" ng-href="{{pres.url}}" ng-bind="pres.event" target="_blank"></a>
+                          <span ng-if="!pres.url" ng-bind="pres.event"></span>,
+                          <span ng-bind="pres.location"></span>
+                        </li>
+                      </ul>
+                      <div ng-if="talk.pres.length == 1" ng-repeat="pres in talk.pres">
+                        <span ng-bind="pres.date"></span>,
+                        <a ng-if="pres.url" ng-href="{{pres.url}}" ng-bind="pres.event" target="_blank"></a>
+                        <span ng-if="!pres.url" ng-bind="pres.event"></span>,
+                        <span ng-bind="pres.location"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
