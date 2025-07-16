@@ -8,7 +8,7 @@ angular.module('admin', [])
     $scope.errors = [];
     $scope.data = {
       papers: {
-        url: 'data/papers.json',
+        url: window.location.pathname.replace(/[^\/]*$/, '') + 'data/papers.json',
         text: 'Publications'
       },
       collaborators: {
