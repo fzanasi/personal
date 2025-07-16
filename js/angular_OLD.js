@@ -102,8 +102,7 @@ angular.module('admin', [])
         if (key == 'talks') checkTalks();
         if (key == 'collaborators' && $scope.data.papers.entries) computeMissingCollaborators();
         if (key == 'papers' && $scope.data.collaborators.entries) computeMissingCollaborators();
-      }).error(function(err) {
-    console.error('Failed to load:', err);
+      }).error(function() {
         $scope.errors.push({
           text: 'Could not load <b>' + d.text + '</b>; please check <pre>' + d.url + '</pre>',
           id: errorId++
@@ -256,7 +255,6 @@ angular.module('homepage', ['ngRoute', 'ngAnimate', 'ngSanitize'])
     });
 
     $http.get('data/papers.json').success(function(data) {
-    console.log('Loaded papers.json:', data);
       $scope.papersByYear = _.chain(data)
            .groupBy('year')
            .pairs()
@@ -332,7 +330,6 @@ angular.module('homepage', ['ngRoute', 'ngAnimate', 'ngSanitize'])
     });
 
     $http.get('data/papers.json').success(function(data) {
-    console.log('Loaded papers.json:', data);
       $scope.papers = data;
       sortCollaborators();
       $scope.getCollaboratorRows.cache = {};
