@@ -333,7 +333,7 @@ angular.module('homepage', ['ngRoute', 'ngAnimate', 'ngSanitize'])
 
     $http.get(basePath + '/data/papers.json').success(function(data) {
     console.log('Loaded papers.json:', data);
-      $scope.papers = data;
+      $scope.papers = data.reverse();
       sortCollaborators();
       $scope.getCollaboratorRows.cache = {};
     });
