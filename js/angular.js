@@ -4,11 +4,11 @@ angular.module('admin', [])
   })
   .controller('AdminCtrl', ['$http', '$scope', function($http, $scope) {
     var errorId = 0;
-
+    var basePath = window.location.pathname.includes('fabiozanasi') ? '/fabiozanasi' : '';
     $scope.errors = [];
     $scope.data = {
       papers: {
-        url: './data/papers.json',
+        url: basePath + '/data/papers.json',
         text: 'Publications'
       },
       collaborators: {
@@ -255,7 +255,7 @@ angular.module('homepage', ['ngRoute', 'ngAnimate', 'ngSanitize'])
       refreshScrollSpy();
     });
 
-    $http.get('data/papers.json').success(function(data) {
+    $http.get(basePath + '/data/papers.json').success(function(data) {
     console.log('Loaded papers.json:', data);
       $scope.papersByYear = _.chain(data)
            .groupBy('year')
