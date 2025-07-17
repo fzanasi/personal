@@ -331,7 +331,7 @@ angular.module('homepage', ['ngRoute', 'ngAnimate', 'ngSanitize'])
       $scope.getCollaboratorRows.cache = {};
     });
 
-    $http.get('data/papers.json').success(function(data) {
+    $http.get(basePath + '/data/papers.json').success(function(data) {
     console.log('Loaded papers.json:', data);
       $scope.papers = data;
       sortCollaborators();
