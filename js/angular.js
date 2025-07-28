@@ -4,11 +4,11 @@ angular.module('admin', [])
   })
   .controller('AdminCtrl', ['$http', '$scope', function($http, $scope) {
     var errorId = 0;
-    var basePath = window.location.pathname.includes('fabiozanasi') ? '/fabiozanasi' : '';
+
     $scope.errors = [];
     $scope.data = {
       papers: {
-        url: basePath + '/data/papers.json',
+        url: 'data/papers.json',
         text: 'Publications'
       },
       collaborators: {
@@ -102,8 +102,7 @@ angular.module('admin', [])
         if (key == 'talks') checkTalks();
         if (key == 'collaborators' && $scope.data.papers.entries) computeMissingCollaborators();
         if (key == 'papers' && $scope.data.collaborators.entries) computeMissingCollaborators();
-      }).error(function(err) {
-    console.error('Failed to load:', err);
+      }).error(function() {
         $scope.errors.push({
           text: 'Could not load <b>' + d.text + '</b>; please check <pre>' + d.url + '</pre>',
           id: errorId++
@@ -255,8 +254,7 @@ angular.module('homepage', ['ngRoute', 'ngAnimate', 'ngSanitize'])
       refreshScrollSpy();
     });
 
-    $http.get(basePath + '/data/papers.json').success(function(data) {
-    console.log('Loaded papers.json:', data);
+    $http.get('data/papers.json').success(function(data) {
       $scope.papersByYear = _.chain(data)
            .groupBy('year')
            .pairs()
@@ -331,9 +329,8 @@ angular.module('homepage', ['ngRoute', 'ngAnimate', 'ngSanitize'])
       $scope.getCollaboratorRows.cache = {};
     });
 
-    $http.get(basePath + '/data/papers.json').success(function(data) {
-    console.log('Loaded papers.json:', data);
-      $scope.papers = data.reverse();
+    $http.get('data/papers.json').success(function(data) {
+      $scope.papers = data;
       sortCollaborators();
       $scope.getCollaboratorRows.cache = {};
     });
