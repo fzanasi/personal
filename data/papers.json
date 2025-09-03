@@ -1,5 +1,24 @@
 [{
    "year":2025,
+   "id":"SZPS25",
+   "authors":[
+      "Dario Stein",
+      "Fabio Zanasi",
+      "Robin Piedeleu",
+      "Richard Samuelson"
+   ],
+   "title":"Quantitative Quadratic Algebra.",
+   "conference":{
+      "name":"22nd International Colloquium on Theoretical Aspects of Computing (ICTAC)",
+      "location":"Marrakech, Morocco",
+      "url":"https://ictac2025.digital-hub.sh/",
+      "series":"",
+      "volume":"",
+      "pages":""
+    },
+    "download":"https://arxiv.org/abs/2403.02284"
+},{
+   "year":2025,
    "id":"LRSZ25",
    "authors":[
       "Gabriele Lobbia",
@@ -31,7 +50,7 @@
    ],
    "title":"Logical Coherent Explanations through Categorical Explaining Functors.",
    "conference":{
-      "name":"22nd International Conference on Principles of Knowledge Representation and Reasoning",
+      "name":"22nd International Conference on Principles of Knowledge Representation and Reasoning (KR)",
       "location":"Melbourne, Australia",
       "url":"https://kr.org/KR2025/",
       "series":"",
