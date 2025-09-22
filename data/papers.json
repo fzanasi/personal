@@ -2,6 +2,24 @@
    "year":2025,
    "id":"SZPS25",
    "authors":[
+      "Paul Wilson",
+      "Fabio Zanasi",
+      "George Constantinides"
+   ],
+   "title":"Convergence for Discrete Parameter Update Schemes.",
+   "conference":{
+      "name":"NeurIPS 2025 Workshop on Optimization for Machine Learning (OPT)",
+      "location":"San Diego, USA",
+      "url":"https://opt-ml.org/",
+      "series":"",
+      "volume":"",
+      "pages":""
+    },
+    "download":"files/paperOPT25.pdf"
+}{
+   "year":2025,
+   "id":"SZPS25",
+   "authors":[
       "Dario Stein",
       "Fabio Zanasi",
       "Robin Piedeleu",
