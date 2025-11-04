@@ -305,7 +305,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 	bottom: 0;
 	background: #fefefe;
 	overflow: hidden;
+  height: 100%;
+  overflow-y: auto;              /* makes it scroll */
+  -webkit-overflow-scrolling: touch; /* smooth iOS scrolling */
 }
+
 
 .page {
 	overflow: auto;
