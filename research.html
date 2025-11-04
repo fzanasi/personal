@@ -3,7 +3,7 @@
     <div class="col-md-10 col-md-offset-1">
 
       <h1>Research Overview</h1>
-      <p class="text-muted">Brief overviews of research topics, with “Where to start” and other selected works.</p>
+      <p class="text-muted">Brief overview of research areas I have contributed to, divided by topic.</p>
       <hr>
 
       <!-- String Diagram Rewriting -->
@@ -25,7 +25,78 @@
         </ul>
       </section>
 
+      <hr>      
+
+      <!-- Parametric Lenses -->
+      <section id="parametric-lenses">
+        <h2>Deep Learning with Parametric Lenses, with an Application to Boolean Circuits</h2>
+        <p>Parametric lenses are a categorical notion generalising the notion of bidirectional transformations to settings where parameters and updates interact. We developed a framework in which stochastic gradient-descent algorithms for machine learning could be formally studied as parametric lenses. This approach is highly modular and uniform: both the model, the parameters, the loss function, and the optimiser can be regarded as lenses, and learning is just the result of their composition.</p>
+        <p>An important development of this work is its instantiation to Boolean rather than real-valued models. This led to the development of software tools for the training of Boolean circuits and arithmetic circuits, in the Yarrow and Catgrad projects. It also stimulated research on the efficient (data parallel) implementation of string diagram operations, and on convergence of discretised learning of circuits. On the more theoretical side, it also led to a systematic study of differentiation in terms of categorical fibrations.</p>
+        <h4>Where to start</h4>
+        <ul>
+          <li>Geoff Cruttwell, Bruno Gavranović, Neil Ghani, Paul Wilson, Fabio Zanasi. <em>Deep Learning with Parametric Lenses.</em> ArXiv Preprint, 2023</li>
+        </ul>
+        <h4>Other selected works</h4>
+        <ul>
+          <li>Paul Wilson, Fabio Zanasi, George Constantinides. <em>Convergence for Discrete Parameter Update Schemes.</em> NeurIPS OPT Workshop, 2025</li>
+          <li>Paul Wilson, Fabio Zanasi. <em>Data-Parallel Differentiation by Optic Composition.</em> LAFI (POPL workshop), 2025</li>
+          <li>Paul Wilson, Fabio Zanasi,. <em>Data-Parallel Algorithms for String Diagrams.</em> ArXiv Preprint, 2023</li>
+          <li>Paul Wilson, Fabio Zanasi. <em>An Axiomatic Approach to Differentiation of Polynomial Circuits.</em> JLAMP, 2023</li>
+          <li>Geoff Cruttwell, Bruno Gavranović, Neil Ghani, Paul Wilson, Fabio Zanasi. <em>Categorical Foundations of Gradient-Based Learning.</em> In ESOP 2022</li>
+        </ul>
+      </section>
+
       <hr>
+            <!-- Bayesian / Causality / PGMs -->
+      <section id="bayesian-causality">
+        <h2>Categorical Semantics of Bayesian Inference, Causality, and Probabilistic Graphical Models</h2>
+        <p>In this thread we developed algebraic and logical foundations for Bayesian probability, inspired by the methodologies of programming language semantics. Our framework offers a uniform, structured and expressive language for describing Bayesian phenomena in terms of familiar programming concepts, like channel, predicate transformation and state transformation. Furthermore, we introduced a suitable calculus of string diagrams to reason about Bayesian networks, including causal inference (`string diagram surgery’) and counterfactuals. This research has also led to the EfProb Python library.</p>
+        <h4>Where to start</h4>
+        <ul>
+          <li>Bart Jacobs, Fabio Zanasi. <em>The Logical Essentials of Bayesian Reasoning.</em> In Foundations of Probabilistic Programming (CUP), 2019</li>
+          <li>Bart Jacobs, Aleks Kissinger, Fabio Zanasi. <em>Causal Inference by String Diagram Surgery — A Diagrammatic Approach to Interventions and Counterfactuals.</em> MSCS, 2021</li>
+        </ul>
+        <h4>Other selected works</h4>
+        <ul>
+          <li>Antonio Lorenzin, Fabio Zanasi. <em>An Algebraic Approach to Moralisation and Triangulation of Probabilistic Graphical Models.</em> In CALCO 2025</li>
+          <li>Bart Jacobs, Fabio Zanasi. <em>A Predicate/State Transformer Semantics for Bayesian Learning.</em> In MFPS 2016</li>
+        </ul>
+      </section>
+
+      <hr>
+      
+      <!-- Layered Explanations -->
+      <section id="layered-explanations">
+        <h2>A Categorical Framework for Layered Explanations (with an Application to Organic Chemistry)</h2>
+        <p>In this line of work, we propose a categorical framework for layered explanations, i.e., multi-level representations of scientific processes (such as reaction mechanisms in organic chemistry) where one layer explains phenomena in another. We model explanation layers in categorical structures called layered PROPs, which come with an expressive string diagrammatic language to visualise how one layer refines or abstracts another. We apply our approach to organic chemistry, where it provides a formal language for reaction mechanisms, retrosynthesis and explanation of molecular transformations. Other areas of application include electrical circuit theory, process algebras for concurrency, Bayesian inference, and quantum processes.</p>
+        <h4>Where to start</h4>
+        <ul>
+          <li>Ella Gale, Leo Lobski, Fabio Zanasi. <em>A Categorical Model for Organic Chemistry.</em> Theoretical Computer Science, 2025</li>
+        </ul>
+        <h4>Other selected works</h4>
+        <ul>
+          <li>Leo Lobski, Fabio Zanasi. <em>String Diagrams for Layered Explanations.</em> In ACT 2022</li>
+        </ul>
+      </section>
+
+      <hr>
+
+      <!-- Axiomatising Probabilistic Computation -->
+      <section id="axiomatising-probabilistic">
+        <h2>Axiomatising Probabilistic Computation</h2>
+        <p>Probabilistic computation is notoriously subtle to capture algebraically. In this series of work we develop string diagrammatic calculi axiomatising probabilistic computation over various semantic domains and with different programming constructs. Our results cover iteration, conditioning, discrete probability, Gaussian probability. Gaussian mixtures, and imprecise probability.</p>
+        <h4>Selected works</h4>
+        <ul>
+          <li>Mateo Torres-Ruiz, Robin Piedeleu, Alexandra Silva, Fabio Zanasi. <em>A Complete Axiomatisation of Equivalence for Discrete Probabilistic Programming.</em> In ESOP 2025</li>
+          <li>Mateo Torres-Ruiz, Robin Piedeleu, Alexandra Silva, Fabio Zanasi. <em>On Iteration in Discrete Probabilistic Programming.</em> In FSCD 2024</li>
+          <li>Ralph Sarkis, Fabio Zanasi. <em>String Diagrams for Graded Monoidal Theories with an Application to Imprecise Probability.</em> In CALCO 2025</li>
+        </ul>
+      </section>
+
+      
+      <hr>
+
+
 
       <!-- Graphical Linear Algebra -->
       <section id="graphical-linear-algebra">
@@ -64,6 +135,24 @@
         </ul>
       </section>
 
+      
+      <hr>
+
+      <!-- Diagrammatic Axiomatisation of FSA -->
+      <section id="diagrammatic-automata">
+        <h2>Diagrammatic Axiomatisation of Finite-State Automata</h2>
+        <p>Classical automata theory can also be recast in diagrammatic terms. In this research line, we developed string diagrammatic calculi that are complete for finite-state automata and regular languages. This yields an intuitive graphical syntax for automata, where standard results — determinisation, minimisation, (bi)simulation, and equivalence — can be studied by equational reasoning on diagrams. Most notably, the string diagrammatic perspective provides a finite and purely equational axiomatisation of equivalence, which is known to be impossible with regular languages.</p>
+        <h4>Where to start</h4>
+        <ul>
+          <li>Robin Piedeleu, Fabio Zanasi. <em>A Finite Axiomatisation of Finite-State Automata Using String Diagrams.</em> Logical Methods in Computer Science, 2023</li>
+        </ul>
+        <h4>Other selected works</h4>
+        <ul>
+          <li>Thibaut Antoine, Robin Piedeleu, Alexandra Silva, Fabio Zanasi. <em>A Complete Diagrammatic Calculus for Automata Simulation.</em> In CSL 2025</li>
+          <li>Robin Piedeleu, Fabio Zanasi. <em>A String Diagrammatic Axiomatisation of Finite-State Automata.</em> In FoSSaCS 2021</li>
+        </ul>
+      </section>
+
       <hr>
 
       <!-- Categorical Semantics of Logic Programming -->
@@ -85,44 +174,7 @@
 
       <hr>
 
-      <!-- Bayesian / Causality / PGMs -->
-      <section id="bayesian-causality">
-        <h2>Categorical Semantics of Bayesian Inference, Causality, and Probabilistic Graphical Models</h2>
-        <p>In this thread we developed algebraic and logical foundations for Bayesian probability, inspired by the methodologies of programming language semantics. Our framework offers a uniform, structured and expressive language for describing Bayesian phenomena in terms of familiar programming concepts, like channel, predicate transformation and state transformation. Furthermore, we introduced a suitable calculus of string diagrams to reason about Bayesian networks, including causal inference (`string diagram surgery’) and counterfactuals. This research has also led to the EfProb Python library.</p>
-        <h4>Where to start</h4>
-        <ul>
-          <li>Bart Jacobs, Fabio Zanasi. <em>The Logical Essentials of Bayesian Reasoning.</em> In Foundations of Probabilistic Programming (CUP), 2019</li>
-          <li>Bart Jacobs, Aleks Kissinger, Fabio Zanasi. <em>Causal Inference by String Diagram Surgery — A Diagrammatic Approach to Interventions and Counterfactuals.</em> MSCS, 2021</li>
-        </ul>
-        <h4>Other selected works</h4>
-        <ul>
-          <li>Antonio Lorenzin, Fabio Zanasi. <em>An Algebraic Approach to Moralisation and Triangulation of Probabilistic Graphical Models.</em> In CALCO 2025</li>
-          <li>Bart Jacobs, Fabio Zanasi. <em>A Predicate/State Transformer Semantics for Bayesian Learning.</em> In MFPS 2016</li>
-        </ul>
-      </section>
 
-      <hr>
-
-      <!-- Parametric Lenses -->
-      <section id="parametric-lenses">
-        <h2>Deep Learning with Parametric Lenses, with an Application to Boolean Circuits</h2>
-        <p>Parametric lenses are a categorical notion generalising the notion of bidirectional transformations to settings where parameters and updates interact. We developed a framework in which stochastic gradient-descent algorithms for machine learning could be formally studied as parametric lenses. This approach is highly modular and uniform: both the model, the parameters, the loss function, and the optimiser can be regarded as lenses, and learning is just the result of their composition.</p>
-        <p>An important development of this work is its instantiation to Boolean rather than real-valued models. This led to the development of software tools for the training of Boolean circuits and arithmetic circuits, in the Yarrow and Catgrad projects. It also stimulated research on the efficient (data parallel) implementation of string diagram operations, and on convergence of discretised learning of circuits. On the more theoretical side, it also led to a systematic study of differentiation in terms of categorical fibrations.</p>
-        <h4>Where to start</h4>
-        <ul>
-          <li>Geoff Cruttwell, Bruno Gavranović, Neil Ghani, Paul Wilson, Fabio Zanasi. <em>Deep Learning with Parametric Lenses.</em> ArXiv Preprint, 2023</li>
-        </ul>
-        <h4>Other selected works</h4>
-        <ul>
-          <li>Paul Wilson, Fabio Zanasi, George Constantinides. <em>Convergence for Discrete Parameter Update Schemes.</em> NeurIPS OPT Workshop, 2025</li>
-          <li>Paul Wilson, Fabio Zanasi. <em>Data-Parallel Differentiation by Optic Composition.</em> LAFI (POPL workshop), 2025</li>
-          <li>Paul Wilson, Fabio Zanasi,. <em>Data-Parallel Algorithms for String Diagrams.</em> ArXiv Preprint, 2023</li>
-          <li>Paul Wilson, Fabio Zanasi. <em>An Axiomatic Approach to Differentiation of Polynomial Circuits.</em> JLAMP, 2023</li>
-          <li>Geoff Cruttwell, Bruno Gavranović, Neil Ghani, Paul Wilson, Fabio Zanasi. <em>Categorical Foundations of Gradient-Based Learning.</em> In ESOP 2022</li>
-        </ul>
-      </section>
-
-      <hr>
 
       <!-- Mu-calculus / MSO / Parity -->
       <section id="mu-mso-parity">
@@ -176,52 +228,6 @@
         </ul>
       </section>
 
-      <hr>
-
-      <!-- Diagrammatic Axiomatisation of FSA -->
-      <section id="diagrammatic-automata">
-        <h2>Diagrammatic Axiomatisation of Finite-State Automata</h2>
-        <p>Classical automata theory can also be recast in diagrammatic terms. In this research line, we developed string diagrammatic calculi that are complete for finite-state automata and regular languages. This yields an intuitive graphical syntax for automata, where standard results — determinisation, minimisation, (bi)simulation, and equivalence — can be studied by equational reasoning on diagrams. Most notably, the string diagrammatic perspective provides a finite and purely equational axiomatisation of equivalence, which is known to be impossible with regular languages.</p>
-        <h4>Where to start</h4>
-        <ul>
-          <li>Robin Piedeleu, Fabio Zanasi. <em>A Finite Axiomatisation of Finite-State Automata Using String Diagrams.</em> Logical Methods in Computer Science, 2023</li>
-        </ul>
-        <h4>Other selected works</h4>
-        <ul>
-          <li>Thibaut Antoine, Robin Piedeleu, Alexandra Silva, Fabio Zanasi. <em>A Complete Diagrammatic Calculus for Automata Simulation.</em> In CSL 2025</li>
-          <li>Robin Piedeleu, Fabio Zanasi. <em>A String Diagrammatic Axiomatisation of Finite-State Automata.</em> In FoSSaCS 2021</li>
-        </ul>
-      </section>
-
-      <hr>
-
-      <!-- Layered Explanations -->
-      <section id="layered-explanations">
-        <h2>A Categorical Framework for Layered Explanations (with an Application to Organic Chemistry)</h2>
-        <p>In this line of work, we propose a categorical framework for layered explanations, i.e., multi-level representations of scientific processes (such as reaction mechanisms in organic chemistry) where one layer explains phenomena in another. We model explanation layers in categorical structures called layered PROPs, which come with an expressive string diagrammatic language to visualise how one layer refines or abstracts another. We apply our approach to organic chemistry, where it provides a formal language for reaction mechanisms, retrosynthesis and explanation of molecular transformations. Other areas of application include electrical circuit theory, process algebras for concurrency, Bayesian inference, and quantum processes.</p>
-        <h4>Where to start</h4>
-        <ul>
-          <li>Ella Gale, Leo Lobski, Fabio Zanasi. <em>A Categorical Model for Organic Chemistry.</em> Theoretical Computer Science, 2025</li>
-        </ul>
-        <h4>Other selected works</h4>
-        <ul>
-          <li>Leo Lobski, Fabio Zanasi. <em>String Diagrams for Layered Explanations.</em> In ACT 2022</li>
-        </ul>
-      </section>
-
-      <hr>
-
-      <!-- Axiomatising Probabilistic Computation -->
-      <section id="axiomatising-probabilistic">
-        <h2>Axiomatising Probabilistic Computation</h2>
-        <p>Probabilistic computation is notoriously subtle to capture algebraically. In this series of work we develop string diagrammatic calculi axiomatising probabilistic computation over various semantic domains and with different programming constructs. Our results cover iteration, conditioning, discrete probability, Gaussian probability. Gaussian mixtures, and imprecise probability.</p>
-        <h4>Selected works</h4>
-        <ul>
-          <li>Mateo Torres-Ruiz, Robin Piedeleu, Alexandra Silva, Fabio Zanasi. <em>A Complete Axiomatisation of Equivalence for Discrete Probabilistic Programming.</em> In ESOP 2025</li>
-          <li>Mateo Torres-Ruiz, Robin Piedeleu, Alexandra Silva, Fabio Zanasi. <em>On Iteration in Discrete Probabilistic Programming.</em> In FSCD 2024</li>
-          <li>Ralph Sarkis, Fabio Zanasi. <em>String Diagrams for Graded Monoidal Theories with an Application to Imprecise Probability.</em> In CALCO 2025</li>
-        </ul>
-      </section>
 
     </div>
   </div>
