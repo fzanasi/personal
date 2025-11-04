@@ -166,8 +166,8 @@ angular.module('homepage', ['ngRoute', 'ngAnimate', 'ngSanitize'])
 /*       { href: '#/research.html', icon: 'screenshot', text: 'Research' },
 { href: 'files/FZ_CV.pdf', icon: 'download-alt', text: 'CV' },*/
       { href: '#/publications.html', icon: 'pencil', text: 'Papers' },
-      { href: '#/talks.html', icon: 'comment', text: 'Talks' },
       { href: '#/research.html', icon: 'eye-open', text: 'Research' },
+      { href: '#/talks.html', icon: 'comment', text: 'Talks' },
 /*            { href: '#/teaching.html', icon: 'bell', text: 'Teaching' },
       { href: '#/news.html', icon: 'bullhorn', text: 'News' },
       { href: '#/UGprojects.html', icon: 'eye-open', text: 'Undergrad Projects' } */
