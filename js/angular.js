@@ -34,16 +34,6 @@ angular.module('admin', [])
       }
     };
 
-// SUGGERITO DA CHATGPT PER CARICARE PAGINA RICERCA
-    // inside angular.module('homepage', [...]).config(function($routeProvider, $locationProvider) { ... })
-    $routeProvider
-      // ...your existing routes...
-      .when('/research.html', {
-        templateUrl: 'research.html',
-        reloadOnSearch: false
-      });
-// FINE SUGGERIMENTO
-
 
     var computeMissingCollaborators = function() {
       var data = $scope.data;
