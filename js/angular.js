@@ -34,6 +34,17 @@ angular.module('admin', [])
       }
     };
 
+// SUGGERITO DA CHATGPT PER CARICARE PAGINA RICERCA
+    // inside angular.module('homepage', [...]).config(function($routeProvider, $locationProvider) { ... })
+    $routeProvider
+      // ...your existing routes...
+      .when('/research.html', {
+        templateUrl: 'research.html',
+        reloadOnSearch: false
+      });
+// FINE SUGGERIMENTO
+
+
     var computeMissingCollaborators = function() {
       var data = $scope.data;
       var papers = data.papers.entries;
@@ -166,6 +177,7 @@ angular.module('homepage', ['ngRoute', 'ngAnimate', 'ngSanitize'])
 { href: 'files/FZ_CV.pdf', icon: 'download-alt', text: 'CV' },*/
       { href: '#/publications.html', icon: 'pencil', text: 'Papers' },
       { href: '#/talks.html', icon: 'comment', text: 'Talks' },
+      { text: 'Research', href: '#/research.html', icon: 'eye-open' }
 /*            { href: '#/teaching.html', icon: 'bell', text: 'Teaching' },
       { href: '#/news.html', icon: 'bullhorn', text: 'News' },
       { href: '#/UGprojects.html', icon: 'eye-open', text: 'Undergrad Projects' } */

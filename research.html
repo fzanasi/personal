@@ -1,43 +1,228 @@
-<div id="research" class="page" ng-controller="CollabCtrl">
-  <div class="pageheader">
-    <div class="headercontent">
-      <div class="section-container">
-        <h2 class="title">Research</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
 
-Page under construction
-<!--
-                <p><span class="babbo">activities.html</span>I have served on several program committees: FORTE 2017 (co-chair), ESOP 2017, <a href="http://lsfa2016.mat.unb.br">LSFA 2016<a>, <a href="http://2016.discotec.org/index.php?MG=20&Mid=9&sub1=1">FORTE 2016</a>, <a href="http://2016.discotec.org/index.php?MG=110&Mid=25&sub1=1?MG=60&Mid=25&sub1=1">ICE 2016</a>, <a href="http://www.coalg.org/cmcs16/">CMCS 2016</a>, <a href="http://lics.rwth-aachen.de/">LICS 2016</a>, ...<a href="#/programcommittees.html"> (see more).</a></p>
+      <h1>Research Overview</h1>
+      <p class="text-muted">Brief overviews of research topics, with “Where to start” and other selected works.</p>
+      <hr>
 
+      <!-- String Diagram Rewriting -->
+      <section id="string-diagram-rewriting">
+        <h2>String Diagram Rewriting</h2>
+        <p>String diagrams provide an intuitive visual language for reasoning algebraically about component-based models. In order to make equational reasoning on string diagrams amenable to implementation, we need to understand equational theories as rewriting systems. A major challenge to this task is that string diagram rewriting typically works modulo the laws of the underlying categorical structure (symmetric monoidal, compact closed, traced, etc..). A proper implementation should identify a data structure and a rewriting mechanism that identifies equivalent string diagrams as the same object. This necessity has led to a research programme where we  develop the mathematical foundations of string diagram rewriting, based on its interpretation as double-pushout hypergraph rewriting. We have explored many different categorical structures in this fashion, as well as questions such as critical pair analysis and confluence.</p>
+        <h4>Where to start</h4>
+        <ul>
+          <li>Filippo Bonchi, Fabio Gadducci, Aleks Kissinger, Pawel Sobociński, Fabio Zanasi. <em>String Diagram Rewrite Theory I/II/III.</em> JACM 2022; MSCS 2022</li>
+        </ul>
+        <h4>Other selected works</h4>
+        <ul>
+          <li>Alessandro Di Giorgio, Dan Ghica, Fabio Zanasi. <em>Rewriting for Traced Monoidal Closed Categories.</em> In ICGT 2025</li>
+          <li>Aleksandar Milosavljevic, Robin Piedeleu, Fabio Zanasi. <em>Rewriting for Symmetric Monoidal Categories with Commutative (Co)Monoid Structure.</em> LMCS, 2024</li>
+          <li>Mario Alvarez Picallo, Dan Ghica, David Sprunger, Fabio Zanasi. <em>Rewriting for Monoidal Closed Categories.</em> In FSCD 2022</li>
+          <li>Filippo Bonchi, Fabio Gadducci, Aleks Kissinger, Pawel Sobociński, Fabio Zanasi. <em>Rewriting with Frobenius.</em> In LICS 2018</li>
+          <li>Fabio Zanasi. <em>Rewriting in Free Hypergraph Categories.</em> In GAM (ETAPS workshop) 2017</li>
+          <li>Filippo Bonchi, Fabio Gadducci, Aleks Kissinger, Pawel Sobociński, Fabio Zanasi. <em>Rewriting modulo symmetric monoidal structures.</em> In LICS 2016</li>
+        </ul>
+      </section>
 
-        <p> I am the chair of Conference Committee of <a href="www.siglog.org">ACM SIGLOG</a>, as well as the Secretary of its Executive Committee. I am a member of the Steering Committe of <a href="http://lics.rwth-aachen.de">LICS</a> and <a href="http://2016.discotec.org/index.php?MG=110&Mid=25&sub1=1?MG=60&Mid=25&sub1=1">ICE</a>.
-        <p> I was the co-chair of the organization committee of <a href="http://coalg.org/calco15/">CALCO 2015</a>, <a href="http://events.cs.bham.ac.uk/mfps31/">MFPS 2015</a>, and <a href="http://event.cwi.nl/cmcs10/">CMCS'10</a> and the publicity chair of CMCS and CALCO in the period 2012-2015. I was also a member of the organizing committee of <a href="http://discotec.project.cwi.nl/index.php/Main_Page">DisCoTec'10</a>.</p>
+      <hr>
 
-        <p>I have given invited talks at <a href="http://mafalda.fdi.ucm.es/concur2015/">CONCUR 2015</a>, <a href="http://www.indiana.edu/~iulg/wollic/">WOLLIC 2015</a> (invited talk and tutorial), <a href="http://ceres.hh.se/mediawiki/index.php/TRENDS_2014/">TRENDS 2014</a>, <a href="http://www.cs.cornell.edu/Conferences/MFPS30/">MFPS 2014</a>, <a href="http://aplas2013.soic.indiana.edu">APLAS 2013</a>, <a href="http://fics2013.univ-mlv.fr">FICS 2013</a> and <a href="http://www.illc.uva.nl/Tbilisi/Tbilisi2013/">TbiLLC 2013</a>.</p>
+      <!-- Graphical Linear Algebra -->
+      <section id="graphical-linear-algebra">
+        <h2>Graphical Linear Algebra</h2>
+        <p>In my PhD thesis (and associated papers), I introduced a diagrammatic calculus for reasoning about linear algebra, known as Graphical Linear Algebra. This calculus provides a complete string-diagrammatic account of linear systems, allowing textbook results about matrices, subspaces, and kernels to be derived by equational reasoning. The axioms of Graphical Linear Algebra arise by composing simpler theories via distributive laws. Whereas my thesis discusses the case of linear subspaces, we extended the approach in the following years to encompass affine algebra and quadratic algebra (the theory of quadratic functions). Notably, the phase-free fragment of the ZX-calculus can be viewed as a special case of Graphical Linear Algebra.</p>
+        <h4>Where to start</h4>
+        <ul>
+          <li>Fabio Zanasi. <em>Interacting Hopf Algebras — The Theory of Linear Systems.</em> PhD thesis, 2015<br>(For a more informal introduction, the blog <em>graphicallinearalgebra.net</em>, maintained by Pawel Sobocinski, is recommended)</li>
+        </ul>
+        <h4>Other selected works</h4>
+        <ul>
+          <li>Dario Stein, Fabio Zanasi, Robin Piedeleu, Richard Samuelson <em>Graphical Quadratic Algebra.</em> In ICTAC 2025</li>
+          <li>Filippo Bonchi, Robin Piedeleu, Pawel Sobociński, Fabio Zanasi. <em>Graphical Affine Algebra.</em> In LICS 2019</li>
+          <li>Filippo Bonchi, Pawel Sobociński, Fabio Zanasi. <em>Interacting Hopf Algebras.</em> Journal of Pure and Applied Algebra, 2017</li>
+        </ul>
+      </section>
 
-        <p>From 2011-2015, I was the site representative in Nijmegen of <a href="http://homepages.cwi.nl/%7Ewinter/coin.html">COIN</a>: Coalgebra in the Netherlands, a bi-monthly seminar, alternatingly taking place at CWI and the Radboud University Nijmegen. From 2012-2014, I co-organized the <a href="http://www.fnds.cs.ru.nl/fndswiki/Seminars">Brouwer seminar</a>. From 2008-2011, I organized with Frank de Boer the <a href="http://acg.project.cwi.nl">ACG seminar</a>.</p>
+      <hr>
 
-        <p>I collaborate(d) with wonderful people:</p>
-        <div ng-repeat="dim in rowsPerSize" class="collaborators visible-{{dim.size}}-block">
-          <div ng-repeat="row in getCollaboratorRows(dim.elems)" class="row">
-            <div ng-repeat="person in row" class="col-{{dim.size}}-{{12 / dim.elems}}">
-              <div class="thumbnail">
-                <a ng-href="/#/publications.html?search={{person.name}}">
-                  <img ng-src="img/collaborators/{{person.img}}" alt="{{person.name}}">
-                </a>
-                <div class="caption">
-                  <a ng-href="/#/publications.html?search={{person.name}}">
-                    <h4>
-                      <span ng-bind="person.name"></span>
-                      <small>({{getNumPubForAuthor(person)}})</small>
-                    </h4>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
--->
-      </div>
+      <!-- Compositional Signal Flow Theory -->
+      <section id="compositional-signal-flow">
+        <h2>Compositional Signal Flow Theory</h2>
+        <p>Signal flow graphs are a classical formalism adopted in Control Theory and Engineering for reasoning about linear dynamical systems. In this line of work we gave a categorical semantics to signal flow graphs, together with a complete axiomatisation based on string diagrams. This perspective enables compositional reasoning about control, feedback, and realisability, in the spirit of Jan Willem’s behavioural approach to control theory. The algebraic approach also reveals a fundamental connection between signal flow graphs and Petri nets, allowing concurrent processes to be axiomatised within the framework. In related work, we also study algorithms in the style of L* automata learning to derive signal flow graphs from a given behaviour.</p>
+        <h4>Where to start</h4>
+        <ul>
+          <li>Filippo Bonchi, Pawel Sobociński, Fabio Zanasi. <em>A Survey on Compositional Signal Flow Theory.</em> In IFIP Advances in Information and Communication Technology 2021.</li>
+        </ul>
+        <h4>Other selected works</h4>
+        <ul>
+          <li>Ekaterina Piotrovskaya, Leo Lobski, Fabio Zanasi. <em>Learning Closed Signal Flow Graphs.</em> In ICTAC 2024</li>
+          <li>Filippo Bonchi, Robin Piedeleu, Pawel Sobociński, Fabio Zanasi. <em>Contextual Equivalence for Signal Flow Graphs.</em> In FoSSaCS 2020</li>
+          <li>Filippo Bonchi, Josh Holland, Robin Piedeleu, Pawel Sobociński, Fabio Zanasi. <em>Diagrammatic Algebra: From Linear to Concurrent Systems.</em> In POPL 2019</li>
+          <li>Filippo Bonchi, Pawel Sobociński, Fabio Zanasi. <em>The Calculus of Signal Flow Diagrams I: Linear Relations on Streams.</em> Information and Computation, 2017</li>
+          <li>Filippo Bonchi, Pawel Sobociński, Fabio Zanasi. <em>Full Abstraction for Signal Flow Graphs.</em> In POPL 2015</li>
+          <li>Filippo Bonchi, Pawel Sobociński, Fabio Zanasi. <em>A Categorical Semantics of Signal Flow Graphs.</em> In CONCUR 2014</li>
+        </ul>
+      </section>
+
+      <hr>
+
+      <!-- Categorical Semantics of Logic Programming -->
+      <section id="logic-programming">
+        <h2>Categorical Semantics of Logic Programming</h2>
+        <p>We studied logic programming through the lens of reactive systems and bialgebraic semantics. Logic programs are modelled as bialgebras on presheaves, where operational behavour correspond to coalgebras and program structure to algebras. The resulting semantics is compositional with respect to conjunction and substitution, and naturally supports a parallel model of computation.
+        We have extended this approach to probabilistic and weighted logic programming, and developed a unifying algebraic semantics that views programs as theories and their semantics as models. Furthermore, this framework underlies a complete calculus for Boolean satisfiability, offering a new decision procedure for equivalence of propositional logic programs.</p>
+        <h4>Where to start</h4>
+        <ul>
+          <li>Filippo Bonchi, Fabio Zanasi. <em>Bialgebraic Semantics for Logic Programming.</em> Logical Methods in Computer Science, 2015</li>
+        </ul>
+        <h4>Other selected works</h4>
+        <ul>
+          <li>Tao Gu, Robin Piedeleu, Fabio Zanasi. <em>A Complete Diagrammatic Calculus for Boolean Satisfiability.</em> In MFPS 2022</li>
+          <li>Tao Gu, Fabio Zanasi. <em>Functorial Semantics as a Unifying Perspective on Logic Programming.</em> In CALCO 2021</li>
+          <li>Tao Gu, Fabio Zanasi. <em>Coalgebraic Semantics for Probabilistic Logic Programming.</em> Logical Methods in Computer Science, 2021</li>
+        </ul>
+      </section>
+
+      <hr>
+
+      <!-- Bayesian / Causality / PGMs -->
+      <section id="bayesian-causality">
+        <h2>Categorical Semantics of Bayesian Inference, Causality, and Probabilistic Graphical Models</h2>
+        <p>In this thread we developed algebraic and logical foundations for Bayesian probability, inspired by the methodologies of programming language semantics. Our framework offers a uniform, structured and expressive language for describing Bayesian phenomena in terms of familiar programming concepts, like channel, predicate transformation and state transformation. Furthermore, we introduced a suitable calculus of string diagrams to reason about Bayesian networks, including causal inference (`string diagram surgery’) and counterfactuals. This research has also led to the EfProb Python library.</p>
+        <h4>Where to start</h4>
+        <ul>
+          <li>Bart Jacobs, Fabio Zanasi. <em>The Logical Essentials of Bayesian Reasoning.</em> In Foundations of Probabilistic Programming (CUP), 2019</li>
+          <li>Bart Jacobs, Aleks Kissinger, Fabio Zanasi. <em>Causal Inference by String Diagram Surgery — A Diagrammatic Approach to Interventions and Counterfactuals.</em> MSCS, 2021</li>
+        </ul>
+        <h4>Other selected works</h4>
+        <ul>
+          <li>Antonio Lorenzin, Fabio Zanasi. <em>An Algebraic Approach to Moralisation and Triangulation of Probabilistic Graphical Models.</em> In CALCO 2025</li>
+          <li>Bart Jacobs, Fabio Zanasi. <em>A Predicate/State Transformer Semantics for Bayesian Learning.</em> In MFPS 2016</li>
+        </ul>
+      </section>
+
+      <hr>
+
+      <!-- Parametric Lenses -->
+      <section id="parametric-lenses">
+        <h2>Deep Learning with Parametric Lenses, with an Application to Boolean Circuits</h2>
+        <p>Parametric lenses are a categorical notion generalising the notion of bidirectional transformations to settings where parameters and updates interact. We developed a framework in which stochastic gradient-descent algorithms for machine learning could be formally studied as parametric lenses. This approach is highly modular and uniform: both the model, the parameters, the loss function, and the optimiser can be regarded as lenses, and learning is just the result of their composition.</p>
+        <p>An important development of this work is its instantiation to Boolean rather than real-valued models. This led to the development of software tools for the training of Boolean circuits and arithmetic circuits, in the Yarrow and Catgrad projects. It also stimulated research on the efficient (data parallel) implementation of string diagram operations, and on convergence of discretised learning of circuits. On the more theoretical side, it also led to a systematic study of differentiation in terms of categorical fibrations.</p>
+        <h4>Where to start</h4>
+        <ul>
+          <li>Geoff Cruttwell, Bruno Gavranović, Neil Ghani, Paul Wilson, Fabio Zanasi. <em>Deep Learning with Parametric Lenses.</em> ArXiv Preprint, 2023</li>
+        </ul>
+        <h4>Other selected works</h4>
+        <ul>
+          <li>Paul Wilson, Fabio Zanasi, George Constantinides. <em>Convergence for Discrete Parameter Update Schemes.</em> NeurIPS OPT Workshop, 2025</li>
+          <li>Paul Wilson, Fabio Zanasi. <em>Data-Parallel Differentiation by Optic Composition.</em> LAFI (POPL workshop), 2025</li>
+          <li>Paul Wilson, Fabio Zanasi,. <em>Data-Parallel Algorithms for String Diagrams.</em> ArXiv Preprint, 2023</li>
+          <li>Paul Wilson, Fabio Zanasi. <em>An Axiomatic Approach to Differentiation of Polynomial Circuits.</em> JLAMP, 2023</li>
+          <li>Geoff Cruttwell, Bruno Gavranović, Neil Ghani, Paul Wilson, Fabio Zanasi. <em>Categorical Foundations of Gradient-Based Learning.</em> In ESOP 2022</li>
+        </ul>
+      </section>
+
+      <hr>
+
+      <!-- Mu-calculus / MSO / Parity -->
+      <section id="mu-mso-parity">
+        <h2>Mu-Calculus, MSO, Parity Automata</h2>
+        <p>A central theme in this work is the rich interplay between fixpoint logics (such as the modal Modal µ-Calculus), monadic second-order logic (MSO) and automata with parity acceptance conditions. Building on the classical characterisation result by Janin Walukiewicz, we investigate refined fragments of these logics (for example, alternation-free µ-calculus or weak MSO) and show how they correspond to classes of parity automata over transition systems. In particular, we introduce new automata-theoretic constructions to capture bisimulation-invariant fragments, and develop expressiveness and equivalence results that bridge logic and automata theory. This line of work underpins verification, model-checking and logical characterisations of system properties.</p>
+        <h4>Where to start</h4>
+        <ul>
+          <li>Facundo Carreiro, Alessandro Facchini, Yde Venema, Fabio Zanasi. <em>The Power of the Weak.</em> ACM Transactions on Computational Logic, 2020</li>
+        </ul>
+        <h4>Other selected works</h4>
+        <ul>
+          <li>Facundo Carreiro, Alessandro Facchini, Yde Venema, Fabio Zanasi. <em>Model Theory of Monadic Predicate Logic with the Infinity Quantifier.</em> Archive for Mathematical Logic, 2021</li>
+          <li>Facundo Carreiro, Alessandro Facchini, Yde Venema, Fabio Zanasi. <em>Weak MSO: automata and expressiveness modulo bisimilarity.</em> In LICS 2014</li>
+          <li>Alessandro Facchini, Yde Venema, Fabio Zanasi. <em>A Characterization Theorem for the Alternation-Free Fragment of the Modal µ-Calculus.</em> In LICS 2013</li>
+        </ul>
+      </section>
+
+      <hr>
+
+      <!-- CKA -->
+      <section id="cka">
+        <h2>Concurrent Kleene Algebra</h2>
+        <p>This work revisits algebraic foundations of program semantics in the presence of concurrency. Concurrent Kleene Algebra (CKA) extends classical Kleene algebra with a parallel composition operator, enabling reasoning about concurrent behaviours (e.g., interleaving, partial ordering of events). Our contributions include a complete axiomatic treatment of CKA and its extensions (such as CKA with observations/tests), together with free-model characterisations (for example via series-parallel pomset languages) and results on completeness and decidability. These foundations support compositional reasoning about concurrent programmes and provide algebraic tools for equational verification of concurrency.</p>
+        <h4>Where to start</h4>
+        <ul>
+          <li>Tobias Kappe, Paul Brunet, Bas Luttik, Alexandra Silva, Fabio Zanasi. <em>On Series-Parallel Pomset Languages: Rationality, Context-Freeness and Automata.</em> JLAMP, 2019</li>
+        </ul>
+        <h4>Other selected works</h4>
+        <ul>
+          <li>Tobias Kappe, Paul Brunet, Alexandra Silva, Jana Wagemaker, Fabio Zanasi. <em>Concurrent Kleene Algebra with Observations: From Hypotheses to Completeness.</em> In FoSSaCS 2020</li>
+          <li>Tobias Kappe, Paul Brunet, Jurriaan Rot, Alexandra Silva, Jana Wagemaker, Fabio Zanasi. <em>Kleene Algebra with Observations.</em> In CONCUR 2019</li>
+          <li>Tobias Kappe, Paul Brunet, Alexandra Silva, Fabio Zanasi. <em>Concurrent Kleene Algebra: Free Model and Completeness.</em> In ESOP 2018</li>
+        </ul>
+      </section>
+
+      <hr>
+
+      <!-- Composing Monoidal Theories -->
+      <section id="composing-monoidal-theories">
+        <h2>Composing Monoidal Theories</h2>
+        <p>A recurring theme in my research is understanding how different algebraic theories interact, and how complex categorical structures may be reduced to the interaction of simpler components. I developed general constructions, based on distributive laws, (co)limits, and other categorical notions, that allow the modular combination of theories such as commutative monoids, bialgebras, and Frobenius algebras. This framework is able to example, for instance, how linear systems arise from the interaction of spans and cospans, how categories of relations (and co-relations!) arise from the interaction of copy and discard maps, and under which conditions cartesian algebraic theories can be factorised in terms of linear theories.</p>
+        <h4>Where to start</h4>
+        <ul>
+          <li>Brendan Fong, Fabio Zanasi. <em>Universal Constructions for (Co)Relations: categories, monoidal categories, and props.</em> Logical Methods in Computer Science, 2018</li>
+          <li>Filippo Bonchi, Pawel Sobociński, Fabio Zanasi. <em>Deconstructing Lawvere with Distributive Laws.</em> JLAMP, 2018</li>
+        </ul>
+        <h4>Other selected works</h4>
+        <ul>
+          <li>Fabio Zanasi. <em>The Algebra of Partial Equivalence Relations.</em> In MFPS 2016</li>
+          <li>Fabio Zanasi. <em>Interacting Hopf Algebras — The Theory of Linear Systems.</em> PhD thesis, 2015</li>
+        </ul>
+      </section>
+
+      <hr>
+
+      <!-- Diagrammatic Axiomatisation of FSA -->
+      <section id="diagrammatic-automata">
+        <h2>Diagrammatic Axiomatisation of Finite-State Automata</h2>
+        <p>Classical automata theory can also be recast in diagrammatic terms. In this research line, we developed string diagrammatic calculi that are complete for finite-state automata and regular languages. This yields an intuitive graphical syntax for automata, where standard results — determinisation, minimisation, (bi)simulation, and equivalence — can be studied by equational reasoning on diagrams. Most notably, the string diagrammatic perspective provides a finite and purely equational axiomatisation of equivalence, which is known to be impossible with regular languages.</p>
+        <h4>Where to start</h4>
+        <ul>
+          <li>Robin Piedeleu, Fabio Zanasi. <em>A Finite Axiomatisation of Finite-State Automata Using String Diagrams.</em> Logical Methods in Computer Science, 2023</li>
+        </ul>
+        <h4>Other selected works</h4>
+        <ul>
+          <li>Thibaut Antoine, Robin Piedeleu, Alexandra Silva, Fabio Zanasi. <em>A Complete Diagrammatic Calculus for Automata Simulation.</em> In CSL 2025</li>
+          <li>Robin Piedeleu, Fabio Zanasi. <em>A String Diagrammatic Axiomatisation of Finite-State Automata.</em> In FoSSaCS 2021</li>
+        </ul>
+      </section>
+
+      <hr>
+
+      <!-- Layered Explanations -->
+      <section id="layered-explanations">
+        <h2>A Categorical Framework for Layered Explanations (with an Application to Organic Chemistry)</h2>
+        <p>In this line of work, we propose a categorical framework for layered explanations, i.e., multi-level representations of scientific processes (such as reaction mechanisms in organic chemistry) where one layer explains phenomena in another. We model explanation layers in categorical structures called layered PROPs, which come with an expressive string diagrammatic language to visualise how one layer refines or abstracts another. We apply our approach to organic chemistry, where it provides a formal language for reaction mechanisms, retrosynthesis and explanation of molecular transformations. Other areas of application include electrical circuit theory, process algebras for concurrency, Bayesian inference, and quantum processes.</p>
+        <h4>Where to start</h4>
+        <ul>
+          <li>Ella Gale, Leo Lobski, Fabio Zanasi. <em>A Categorical Model for Organic Chemistry.</em> Theoretical Computer Science, 2025</li>
+        </ul>
+        <h4>Other selected works</h4>
+        <ul>
+          <li>Leo Lobski, Fabio Zanasi. <em>String Diagrams for Layered Explanations.</em> In ACT 2022</li>
+        </ul>
+      </section>
+
+      <hr>
+
+      <!-- Axiomatising Probabilistic Computation -->
+      <section id="axiomatising-probabilistic">
+        <h2>Axiomatising Probabilistic Computation</h2>
+        <p>Probabilistic computation is notoriously subtle to capture algebraically. In this series of work we develop string diagrammatic calculi axiomatising probabilistic computation over various semantic domains and with different programming constructs. Our results cover iteration, conditioning, discrete probability, Gaussian probability. Gaussian mixtures, and imprecise probability.</p>
+        <h4>Selected works</h4>
+        <ul>
+          <li>Mateo Torres-Ruiz, Robin Piedeleu, Alexandra Silva, Fabio Zanasi. <em>A Complete Axiomatisation of Equivalence for Discrete Probabilistic Programming.</em> In ESOP 2025</li>
+          <li>Mateo Torres-Ruiz, Robin Piedeleu, Alexandra Silva, Fabio Zanasi. <em>On Iteration in Discrete Probabilistic Programming.</em> In FSCD 2024</li>
+          <li>Ralph Sarkis, Fabio Zanasi. <em>String Diagrams for Graded Monoidal Theories with an Application to Imprecise Probability.</em> In CALCO 2025</li>
+        </ul>
+      </section>
+
     </div>
   </div>
 </div>
