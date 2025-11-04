@@ -177,7 +177,7 @@ angular.module('homepage', ['ngRoute', 'ngAnimate', 'ngSanitize'])
 { href: 'files/FZ_CV.pdf', icon: 'download-alt', text: 'CV' },*/
       { href: '#/publications.html', icon: 'pencil', text: 'Papers' },
       { href: '#/talks.html', icon: 'comment', text: 'Talks' },
-      { text: 'Research', href: '#/research.html', icon: 'eye-open' },
+      { href: '#/research.html', icon: 'eye-open', text: 'Research' },
 /*            { href: '#/teaching.html', icon: 'bell', text: 'Teaching' },
       { href: '#/news.html', icon: 'bullhorn', text: 'News' },
       { href: '#/UGprojects.html', icon: 'eye-open', text: 'Undergrad Projects' } */
