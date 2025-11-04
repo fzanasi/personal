@@ -26,7 +26,7 @@
 
       <!-- String Diagram Rewriting -->
       <section id="string-diagram-rewriting">
-        <h2>String Diagram Rewriting</h2>
+        <h3>String Diagram Rewriting</h3>
         <p>String diagrams provide an intuitive visual language for reasoning algebraically about component-based models. In order to make equational reasoning on string diagrams amenable to implementation, we need to understand equational theories as rewriting systems. A major challenge to this task is that string diagram rewriting typically works modulo the laws of the underlying categorical structure (symmetric monoidal, compact closed, traced, etc..). A proper implementation should identify a data structure and a rewriting mechanism that identifies equivalent string diagrams as the same object. This necessity has led to a research programme where we  develop the mathematical foundations of string diagram rewriting, based on its interpretation as double-pushout hypergraph rewriting. We have explored many different categorical structures in this fashion, as well as questions such as critical pair analysis and confluence.</p>
         <h4>Where to start</h4>
         <ul>
@@ -47,7 +47,7 @@
 
       <!-- Parametric Lenses -->
       <section id="parametric-lenses">
-        <h2>Deep Learning with Parametric Lenses, with an Application to Boolean Circuits</h2>
+        <h3>Deep Learning with Parametric Lenses, with an Application to Boolean Circuits</h3>
         <p>Parametric lenses are a categorical notion generalising the notion of bidirectional transformations to settings where parameters and updates interact. We developed a framework in which stochastic gradient-descent algorithms for machine learning could be formally studied as parametric lenses. This approach is highly modular and uniform: both the model, the parameters, the loss function, and the optimiser can be regarded as lenses, and learning is just the result of their composition.</p>
         <p>An important development of this work is its instantiation to Boolean rather than real-valued models. This led to the development of software tools for the training of Boolean circuits and arithmetic circuits, in the Yarrow and Catgrad projects. It also stimulated research on the efficient (data parallel) implementation of string diagram operations, and on convergence of discretised learning of circuits. On the more theoretical side, it also led to a systematic study of differentiation in terms of categorical fibrations.</p>
         <h4>Where to start</h4>
@@ -67,7 +67,7 @@
       <hr>
             <!-- Bayesian / Causality / PGMs -->
       <section id="bayesian-causality">
-        <h2>Categorical Semantics of Bayesian Inference, Causality, and Probabilistic Graphical Models</h2>
+        <h3>Categorical Semantics of Bayesian Inference, Causality, and Probabilistic Graphical Models</h3>
         <p>In this thread we developed algebraic and logical foundations for Bayesian probability, inspired by the methodologies of programming language semantics. Our framework offers a uniform, structured and expressive language for describing Bayesian phenomena in terms of familiar programming concepts, like channel, predicate transformation and state transformation. Furthermore, we introduced a suitable calculus of string diagrams to reason about Bayesian networks, including causal inference (`string diagram surgery’) and counterfactuals. This research has also led to the EfProb Python library.</p>
         <h4>Where to start</h4>
         <ul>
@@ -85,7 +85,7 @@
 
       <!-- Layered Explanations -->
       <section id="layered-explanations">
-        <h2>A Categorical Framework for Layered Explanations (with an Application to Organic Chemistry)</h2>
+        <h3>A Categorical Framework for Layered Explanations (with an Application to Organic Chemistry)</h3>
         <p>In this line of work, we propose a categorical framework for layered explanations, i.e., multi-level representations of scientific processes (such as reaction mechanisms in organic chemistry) where one layer explains phenomena in another. We model explanation layers in categorical structures called layered PROPs, which come with an expressive string diagrammatic language to visualise how one layer refines or abstracts another. We apply our approach to organic chemistry, where it provides a formal language for reaction mechanisms, retrosynthesis and explanation of molecular transformations. Other areas of application include electrical circuit theory, process algebras for concurrency, Bayesian inference, and quantum processes.</p>
         <h4>Where to start</h4>
         <ul>
@@ -101,7 +101,7 @@
 
       <!-- Axiomatising Probabilistic Computation -->
       <section id="axiomatising-probabilistic">
-        <h2>Axiomatising Probabilistic Computation</h2>
+        <h3>Axiomatising Probabilistic Computation</h3>
         <p>Probabilistic computation is notoriously subtle to capture algebraically. In this series of work we develop string diagrammatic calculi axiomatising probabilistic computation over various semantic domains and with different programming constructs. Our results cover iteration, conditioning, discrete probability, Gaussian probability. Gaussian mixtures, and imprecise probability.</p>
         <h4>Selected works</h4>
         <ul>
@@ -118,7 +118,7 @@
 
       <!-- Graphical Linear Algebra -->
       <section id="graphical-linear-algebra">
-        <h2>Graphical Linear Algebra</h2>
+        <h3>Graphical Linear Algebra</h3>
         <p>In my PhD thesis (and associated papers), I introduced a diagrammatic calculus for reasoning about linear algebra, known as Graphical Linear Algebra. This calculus provides a complete string-diagrammatic account of linear systems, allowing textbook results about matrices, subspaces, and kernels to be derived by equational reasoning. The axioms of Graphical Linear Algebra arise by composing simpler theories via distributive laws. Whereas my thesis discusses the case of linear subspaces, we extended the approach in the following years to encompass affine algebra and quadratic algebra (the theory of quadratic functions). Notably, the phase-free fragment of the ZX-calculus can be viewed as a special case of Graphical Linear Algebra.</p>
         <h4>Where to start</h4>
         <ul>
@@ -136,7 +136,7 @@
 
       <!-- Compositional Signal Flow Theory -->
       <section id="compositional-signal-flow">
-        <h2>Compositional Signal Flow Theory</h2>
+        <h3>Compositional Signal Flow Theory</h3>
         <p>Signal flow graphs are a classical formalism adopted in Control Theory and Engineering for reasoning about linear dynamical systems. In this line of work we gave a categorical semantics to signal flow graphs, together with a complete axiomatisation based on string diagrams. This perspective enables compositional reasoning about control, feedback, and realisability, in the spirit of Jan Willem’s behavioural approach to control theory. The algebraic approach also reveals a fundamental connection between signal flow graphs and Petri nets, allowing concurrent processes to be axiomatised within the framework. In related work, we also study algorithms in the style of L* automata learning to derive signal flow graphs from a given behaviour.</p>
         <h4>Where to start</h4>
         <ul>
@@ -158,7 +158,7 @@
 
       <!-- Diagrammatic Axiomatisation of FSA -->
       <section id="diagrammatic-automata">
-        <h2>Diagrammatic Axiomatisation of Finite-State Automata</h2>
+        <h3>Diagrammatic Axiomatisation of Finite-State Automata</h3>
         <p>Classical automata theory can also be recast in diagrammatic terms. In this research line, we developed string diagrammatic calculi that are complete for finite-state automata and regular languages. This yields an intuitive graphical syntax for automata, where standard results — determinisation, minimisation, (bi)simulation, and equivalence — can be studied by equational reasoning on diagrams. Most notably, the string diagrammatic perspective provides a finite and purely equational axiomatisation of equivalence, which is known to be impossible with regular languages.</p>
         <h4>Where to start</h4>
         <ul>
@@ -175,7 +175,7 @@
 
       <!-- Categorical Semantics of Logic Programming -->
       <section id="logic-programming">
-        <h2>Categorical Semantics of Logic Programming</h2>
+        <h3>Categorical Semantics of Logic Programming</h3>
         <p>We studied logic programming through the lens of reactive systems and bialgebraic semantics. Logic programs are modelled as bialgebras on presheaves, where operational behavour correspond to coalgebras and program structure to algebras. The resulting semantics is compositional with respect to conjunction and substitution, and naturally supports a parallel model of computation.
         We have extended this approach to probabilistic and weighted logic programming, and developed a unifying algebraic semantics that views programs as theories and their semantics as models. Furthermore, this framework underlies a complete calculus for Boolean satisfiability, offering a new decision procedure for equivalence of propositional logic programs.</p>
         <h4>Where to start</h4>
@@ -196,7 +196,7 @@
 
       <!-- Mu-calculus / MSO / Parity -->
       <section id="mu-mso-parity">
-        <h2>Mu-Calculus, MSO, Parity Automata</h2>
+        <h3>Mu-Calculus, MSO, Parity Automata</h3>
         <p>A central theme in this work is the rich interplay between fixpoint logics (such as the modal Modal µ-Calculus), monadic second-order logic (MSO) and automata with parity acceptance conditions. Building on the classical characterisation result by Janin Walukiewicz, we investigate refined fragments of these logics (for example, alternation-free µ-calculus or weak MSO) and show how they correspond to classes of parity automata over transition systems. In particular, we introduce new automata-theoretic constructions to capture bisimulation-invariant fragments, and develop expressiveness and equivalence results that bridge logic and automata theory. This line of work underpins verification, model-checking and logical characterisations of system properties.</p>
         <h4>Where to start</h4>
         <ul>
@@ -214,7 +214,7 @@
 
       <!-- CKA -->
       <section id="cka">
-        <h2>Concurrent Kleene Algebra</h2>
+        <h3>Concurrent Kleene Algebra</h3>
         <p>This work revisits algebraic foundations of program semantics in the presence of concurrency. Concurrent Kleene Algebra (CKA) extends classical Kleene algebra with a parallel composition operator, enabling reasoning about concurrent behaviours (e.g., interleaving, partial ordering of events). Our contributions include a complete axiomatic treatment of CKA and its extensions (such as CKA with observations/tests), together with free-model characterisations (for example via series-parallel pomset languages) and results on completeness and decidability. These foundations support compositional reasoning about concurrent programmes and provide algebraic tools for equational verification of concurrency.</p>
         <h4>Where to start</h4>
         <ul>
@@ -232,7 +232,7 @@
 
       <!-- Composing Monoidal Theories -->
       <section id="composing-monoidal-theories">
-        <h2>Composing Monoidal Theories</h2>
+        <h3>Composing Monoidal Theories</h3>
         <p>A recurring theme in my research is understanding how different algebraic theories interact, and how complex categorical structures may be reduced to the interaction of simpler components. I developed general constructions, based on distributive laws, (co)limits, and other categorical notions, that allow the modular combination of theories such as commutative monoids, bialgebras, and Frobenius algebras. This framework is able to example, for instance, how linear systems arise from the interaction of spans and cospans, how categories of relations (and co-relations!) arise from the interaction of copy and discard maps, and under which conditions cartesian algebraic theories can be factorised in terms of linear theories.</p>
         <h4>Where to start</h4>
         <ul>
