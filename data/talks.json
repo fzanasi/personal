@@ -3,12 +3,12 @@
   { "date": "December 2025", "event": "PHIL", "url": "https://studentsunionucl.org/whats-on/clubs-societies/philsoc-x-css-unreasonable-effectiveness-of-philosophy-in-computer-science",  "location": "London, United Kingdom"}
 ],
 "download": [{ "text": "PDF", "url": "files/talks/talkPhilSociety.pdf" }]
-}{ "title": "Graphical Quadratic Algebra",
+},{ "title": "Graphical Quadratic Algebra",
 "pres": [
   { "date": "November 2025", "event": "ICTAC25", "url": "https://ictac2025.digital-hub.sh/",  "location": "Marrakesch, Morocco"}
 ],
 "download": [{ "text": "PDF", "url": "files/talks/talkICTAC25bis.pdf" }]
-}{ "title": "Algebraic Reasoning on Graphical Models: the Case for String Diagrams",
+},{ "title": "Algebraic Reasoning on Graphical Models: the Case for String Diagrams",
 "pres": [
   { "date": "May 2023", "event": "CSW23", "url": "https://docs-dibris.github.io/csw23/",  "location": "Genova, Italy"}
 ],
