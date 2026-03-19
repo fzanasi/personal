@@ -1,4 +1,34 @@
 [{
+   "year":2026,
+   "id":"KPZ26",
+   "authors":[
+      "Martti Karvonen",
+      "Robin Piedeleu",
+      "Fabio Zanasi"
+   ],
+   "title":"Towards Synthetic Cryptography - A String Diagrammatic Manifesto.",
+   "unpublished":"Manuscript",
+    "download":"files/ARIAppdReport.pdf"
+},{
+   "year":2026,
+   "id":"TPSZ26",
+   "authors":[
+      "Mateo Torres-Ruiz",
+      "Robin Piedeleu",
+      "Alexandra Silva",
+      "Fabio Zanasi"
+   ],
+   "title":"A Complete Diagrammatic Calculus for Conditional Gaussian Mixtures.",
+   "conference":{
+      "name":"34th EACSL Annual Conference on Computer Science Logic (CSL)",
+      "location":"Paris, France",
+      "url":"https://csl2026.github.io/",
+      "series":"",
+      "volume":"",
+      "pages":""
+    },
+   "download":"https://arxiv.org/abs/2510.04649"
+},{
    "year":2025,
    "id":"WZC25",
    "authors":[
