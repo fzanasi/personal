@@ -1,6 +1,11 @@
-[{ "title": "The unreasonable effectiveness of Philosophy in Computer Science",
+[{ "title": "Graphical Linear Algebra",
 "pres": [
-  { "date": "December 2025", "event": "PHIL", "url": "https://studentsunionucl.org/whats-on/clubs-societies/philsoc-x-css-unreasonable-effectiveness-of-philosophy-in-computer-science",  "location": "London, United Kingdom"}
+  { "date": "March 2026", "event": "UCL Mathematics Society Colloquium", "url": "https://www.instagram.com/p/DV9tyB0CCeu/",  "location": "London, United Kingdom"}
+],
+"download": [{ "text": "PDF", "url": "files/talks/talkMathSociety.pdf" }]
+},{ "title": "The unreasonable effectiveness of Philosophy in Computer Science",
+"pres": [
+  { "date": "December 2025", "event": "UCL Philosphy Society Colloquium", "url": "https://studentsunionucl.org/whats-on/clubs-societies/philsoc-x-css-unreasonable-effectiveness-of-philosophy-in-computer-science",  "location": "London, United Kingdom"}
 ],
 "download": [{ "text": "PDF", "url": "files/talks/talkPhilSociety.pdf" }]
 },{ "title": "Graphical Quadratic Algebra",
