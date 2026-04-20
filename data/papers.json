@@ -1,5 +1,24 @@
 [{
    "year":2026,
+   "id":"RPSZ26",
+   "authors":[
+      "Wojtek Rozowski",
+      "Robin Piedeleu",
+      "Alexandra Silva",
+      "Fabio Zanasi"
+   ],
+   "title":"A Diagrammatic Axiomatisation of Behavioural Distance of Nondeterministic Processe.",
+   "conference":{
+      "name":"53rd International Colloquium on Automata, Languages, and Programming (ICALP)",
+      "location":"London, United Kingdom",
+      "url":"https://icalppodcspaa2026.cs.rhul.ac.uk/icalp/",
+      "series":"",
+      "volume":"",
+      "pages":""
+    },
+    "download":"files/paperICALP26.pdf"
+},{
+   "year":2026,
    "id":"KPZ26",
    "authors":[
       "Martti Karvonen",
