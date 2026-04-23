@@ -30,6 +30,40 @@
     "download":"files/ARIAppdReport.pdf"
 },{
    "year":2026,
+   "id":"SZ25",
+   "authors":[
+      "Ralph Sarkis",
+      "Fabio Zanasi"
+   ],
+   "title":"Complete Diagrammatic Axiomatisations of Relative Entropy.",
+   "conference":{
+      "name":"42nd Conference on Mathematical Foundations of Programming Semantics (MFPS)",
+      "location":"Ljubljana, Slovenia",
+      "url":"https://ul-fmf.github.io/mfps-sstt-2026/",
+      "series":"",
+      "volume":"",
+      "pages":""
+    },
+    "download":"https://arxiv.org/abs/2603.04530"
+},{
+   "year":2026,
+   "id":"LZ26",
+   "authors":[
+      "Antonio Lorenzin",
+      "Fabio Zanasi"
+   ],
+   "title":"Approaching the Continuous from the Discrete: an Infinite Tensor Product Construction.",
+   "conference":{
+      "name":"42nd Conference on Mathematical Foundations of Programming Semantics (MFPS)",
+      "location":"Ljubljana, Slovenia",
+      "url":"https://ul-fmf.github.io/mfps-sstt-2026/",
+      "series":"",
+      "volume":"",
+      "pages":""
+    },
+    "download":"https://arxiv.org/abs/2510.14716"
+},{
+   "year":2026,
    "id":"TPSZ26",
    "authors":[
       "Mateo Torres-Ruiz",
