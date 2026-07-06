@@ -1,5 +1,40 @@
 [{
    "year":2026,
+   "id":"SZPS2026",
+   "authors":[
+      "Dario Stein",
+      "Fabio Zanasi",
+      "Robin Piedeleu",
+      Richard Samuelson"
+   ],
+   "title":"Graphical Quadratic Algebra: a Complete Calculus for Convex Optimisation and Gaussian Probability.",
+   "journal":{
+      "name":"Theoretical Computer Science",
+      "volume":"",
+      "pages":"",
+      "url":"https://www.journals.elsevier.com/theoretical-computer-science/",
+      "note":"This is an extended version of our ICTAC 2025 paper (see below)."
+   },
+    "download":"files/paperTCS26.pdf"
+},{
+   "year":2026,
+   "id":"LZ2026",
+   "authors":[
+      "Leo Lobski",
+      "Fabio Zanasi"
+   ],
+   "title":"Layered Monoidal Theories. (Extended Abstract)",
+   "conference":{
+      "name":"9th International Conference on Applied Category Theory (ACT)",
+      "location":"Tallinn, Estonia",
+      "url":"https://actconf2026.github.io/",
+      "series":"",
+      "volume":"",
+      "pages":""
+    },
+    "download":"https://actconf2026.github.io/papers/ACT_2026_paper_57.pdf"
+},{
+   "year":2026,
    "id":"RPSZ26",
    "authors":[
       "Wojtek Rozowski",
