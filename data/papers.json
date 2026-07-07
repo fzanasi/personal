@@ -18,6 +18,25 @@
     "download":"files/paperTCS26.pdf"
 },{
    "year":2026,
+   "id":"LSWZ26",
+   "authors":[
+      "Leo Lobski",
+      "Ralph Sarkis",
+      "Paul Wilson", 
+      "Fabio Zanasi"
+   ],
+   "title":"Towards a Combinatorial Representation of First-Order Bicategories. (Extended Abstract)",
+   "conference":{
+      "name":"1st Workshop on Diagrams in Logic and Computation (DIALOCO)",
+      "location":"Lisbon, Portugal",
+      "url":"https://dialoco.github.io/dialoco26/",
+      "series":"",
+      "volume":"",
+      "pages":""
+    },
+    "download":"files/paperDIALOCO26.pdf"
+},{
+   "year":2026,
    "id":"LZ2026",
    "authors":[
       "Leo Lobski",
