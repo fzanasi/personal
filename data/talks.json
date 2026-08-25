@@ -1,4 +1,9 @@
-[{ "title": "Graphical Linear Algebra",
+[{ "title": "Computing with Pictures: the Rise of String Diagrams in Computer Science",
+"pres": [
+  { "date": "August 2026", "event": "15th International Conference on the Theory and Application of Diagrams (DIAGRAM)", "url": "https://diagrams-conference.org/2026/",  "location": "Tallinn, Estonia"}
+],
+"download": [{ "text": "PDF", "url": "files/talks/talkDIAGRAMS26.pdf" }]
+},{ "title": "Graphical Linear Algebra",
 "pres": [
   { "date": "March 2026", "event": "UCL Mathematics Society Colloquium", "url": "https://www.instagram.com/p/DV9tyB0CCeu/",  "location": "London, United Kingdom"}
 ],
