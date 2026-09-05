@@ -1,4 +1,9 @@
-[{ "title": "Computing with Pictures: the Rise of String Diagrams in Computer Science",
+[{ "title": "Structural Operational Semantics for String Diagrammatic Languages",
+"pres": [
+  { "date": "September 2026", "event": "Combined 33rd International Workshop on Expressiveness in Concurrency and 23rd Workshop on Structural Operational Semantics (EXPRESS/SOS)", "url": "https://expresssos.github.io/conf/2026/",  "location": "Liverpool, United Kingdom"}
+],
+"download": [{ "text": "PDF", "url": "files/talks/talkEXPRESSOS26.pdf" }]
+},{ "title": "Computing with Pictures: the Rise of String Diagrams in Computer Science",
 "pres": [
   { "date": "August 2026", "event": "15th International Conference on the Theory and Application of Diagrams (DIAGRAM)", "url": "https://diagrams-conference.org/2026/",  "location": "Tallinn, Estonia"}
 ],
