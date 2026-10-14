@@ -1,5 +1,20 @@
 [{
    "year":2026,
+   "id":"LZ26",
+   "authors":[
+      "Leo Lobski",
+      "Fabio Zanasi"
+   ],
+   "title":"Layered Monoidal Theories I: Diagrammatic Algebra and Applications.",
+   "journal":{
+      "name":"ACM Transactions on Computational Logic (ACM TOCL)",
+      "volume":"",
+      "pages":"",
+      "url":"https://dl.acm.org/journal/tocl"
+   },
+    "download":"https://arxiv.org/abs/2602.19776"
+},{
+   "year":2026,
    "id":"SZPS2026",
    "authors":[
       "Dario Stein",
