@@ -15,6 +15,42 @@
     "download":"https://arxiv.org/abs/2602.19776"
 },{
    "year":2026,
+   "id":"KPZ26",
+   "authors":[
+      "Martti Karvonen",
+      "Robin Piedeleu",
+      "Fabio Zanasi"
+   ],
+   "title":"Towards Synthetic Cryptography - A String Diagrammatic Approach.",
+   "conference":{
+      "name":"23rd International Colloquium on Theoretical Aspects of Computing (ICTAC)",
+      "location":"Bariloche, Argentina",
+      "url":"https://ictac2026.github.io/",
+      "series":"",
+      "volume":"",
+      "pages":"",
+      "Short Paper"
+    },
+    "download":"files/paperTCS26a.pdf"
+},{
+   "year":2026,
+   "id":"SZ26",
+   "authors":[
+      "Sifei Li",
+      "Fabio Zanasi"
+   ],
+   "title":"Tool Support for Causal Reasoning via String Diagram Surgery.",
+   "conference":{
+      "name":"23rd International Colloquium on Theoretical Aspects of Computing (ICTAC)",
+      "location":"Bariloche, Argentina",
+      "url":"https://ictac2026.github.io/",
+      "series":"",
+      "volume":"",
+      "pages":""
+    },
+    "download":"files/paperICTAC26b.pdf"
+},{
+   "year":2026,
    "id":"SZPS2026",
    "authors":[
       "Dario Stein",
